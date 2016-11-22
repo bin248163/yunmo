@@ -1,10 +1,7 @@
-## 一个常用的pc站框架，使用sass编写css，完善中~
+## 航天云膜
 
-
-[示例Demo](http://www.qianxiaoduan.com/wz/pc)
+包含一个移动端
 
 [My blog](http://www.qianxiaoduan.com/)
 
 ----
-* 2016.11.21 修正编码乱码问题，添加了一个图片翻转动画 
-* 2016.11.22 添加了判断移动端跳转的代码
