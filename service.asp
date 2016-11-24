@@ -174,53 +174,51 @@
 		</div>
 		<div class="p_fl">
 			<h2>系列</h2>
-			<div class="vl">
-				<div class="xl">
-					<h3>倾慕100%护肤套装</h3>
-					<ul>
-						<li onclick="command(0)">倾慕100%护肤套装</li>
-						<li onclick="command(0)">前档S800 + 侧挡Y870</li>
-					</ul>
-				</div>
-				<div class="xl">
-					<h3>冰度98隔热套装</h3>
-					<ul>
-						<li onclick="command(0)">前档S900P + 侧挡Y850P</li>
-						<li onclick="command(0)">前档S900P + 侧挡V05</li>
-						<li onclick="command(0)">前档S900P + 侧挡Y980</li>
-					</ul>
-				</div>
-				<div class="xl">
-					<h3>云盾24安防套装</h3>
-					<ul>
-						<li onclick="command(0)">前档S800 + 侧挡Y530</li>
-						<li onclick="command(0)">前档S800 + 侧挡Y550</li>
-					</ul>
-				</div>
+
+			<div class="xl">
+				<h3>倾慕100%护肤套装</h3>
+				<ul>
+					<li onclick="command(0)">倾慕100%护肤套装</li>
+					<li onclick="command(0)">前档S800 + 侧挡Y870</li>
+				</ul>
 			</div>
-			<div class="vl">
-				<div class="xl">
-					<h3>极关77高清套装</h3>
-					<ul>
-						<li onclick="command(0)">前档S70 + 侧挡V25</li>
-						<li onclick="command(0)">前档S70 + 侧挡V15</li>
-					</ul>
-				</div>
-				<div class="xl">
-					<h3>光年10恒色套装</h3>
-					<ul>
-						<li onclick="command(0)">前档CL30 + 侧挡CL130</li>
-						<li onclick="command(0)">前档CL30 + 侧挡CL230</li>
-						<li onclick="command(0)">前档CL30 + 侧挡CL330</li>
-					</ul>
-				</div>
-				<div class="xl">
-					<h3>星航360尖端套装</h3>
-					<ul>
-						<li onclick="command(0)">前档S950 + 侧挡Y980</li>
-						<li onclick="command(0)">前档S950 + 侧挡V05</li>
-					</ul>
-				</div>
+			<div class="xl">
+				<h3>冰度98隔热套装</h3>
+				<ul>
+					<li onclick="command(0)">前档S900P + 侧挡Y850P</li>
+					<li onclick="command(0)">前档S900P + 侧挡V05</li>
+					<li onclick="command(0)">前档S900P + 侧挡Y980</li>
+				</ul>
+			</div>
+			<div class="xl">
+				<h3>云盾24安防套装</h3>
+				<ul>
+					<li onclick="command(0)">前档S800 + 侧挡Y530</li>
+					<li onclick="command(0)">前档S800 + 侧挡Y550</li>
+				</ul>
+			</div>
+
+			<div class="xl">
+				<h3>极关77高清套装</h3>
+				<ul>
+					<li onclick="command(0)">前档S70 + 侧挡V25</li>
+					<li onclick="command(0)">前档S70 + 侧挡V15</li>
+				</ul>
+			</div>
+			<div class="xl">
+				<h3>光年10恒色套装</h3>
+				<ul>
+					<li onclick="command(0)">前档CL30 + 侧挡CL130</li>
+					<li onclick="command(0)">前档CL30 + 侧挡CL230</li>
+					<li onclick="command(0)">前档CL30 + 侧挡CL330</li>
+				</ul>
+			</div>
+			<div class="xl">
+				<h3>星航360尖端套装</h3>
+				<ul>
+					<li onclick="command(0)">前档S950 + 侧挡Y980</li>
+					<li onclick="command(0)">前档S950 + 侧挡V05</li>
+				</ul>
 			</div>
 
 		</div>
