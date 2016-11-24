@@ -193,7 +193,7 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
     p{font-size: 16px;padding-top: 20px;line-height: 36px;}
 }
 .next{padding: 50px 0;
-    p{font-size: 16px;}
+    p{font-size: 16px;@include overflow;}
     a:hover{text-decoration: underline;}
 }
 .act{padding: 100px 50px 80px 50px;border-bottom: 1px solid #d6d6d6;
@@ -458,7 +458,7 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
 
 @media only screen and (max-width: 1200px) {
     .adv-wrapper{
-        div{width: 100%;}
+        div{width: 98%;margin: 0 1%;}
     }
     .head{width: 100%;position: relative;}
     body{font-family: "微软雅黑";}
@@ -510,6 +510,9 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
             i{width: 60%;}
         }
     } 
+    .promos{
+        h2{font-size: 16px;line-height: 20px;}
+    }
     .pro{
         p{font-size: 14px;line-height: 28px;}
     }
@@ -518,7 +521,8 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
     }
     .wa{height: 250px;}
     .xl{width: 48%;}
-    .wax{  
+    .wax{ 
+        h1{font-size: 18px;} 
         .pp{
             select{height: 50px;width: 90%;}
         }   
@@ -533,8 +537,12 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
         td,th{padding: 10px 0;}
     }
     .table_h1{font-size: 16px;padding-left: 0;border-bottom:1px solid #d6d6d6 ;}
-    .news1{
+    .news1{padding: 20px 0;
         h1{font-size: 16px;}
+        p{font-size: 14px;line-height: 28px;}
+    }
+    .next{padding: 30px 0;
+        p{font-size: 14px;}
     }
     
 }
