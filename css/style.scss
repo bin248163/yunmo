@@ -131,6 +131,23 @@ nav{position: relative;float: right;
     h2{font-size:30px;line-height: 30px;padding-top:50px;padding-bottom: 50px;}
     p{font-size: 16px;padding-top: 20px;line-height: 36px;}
 }
+.wa{width: 100%;height: 450px;background: url(../images/wa_03.jpg) no-repeat center;}
+.wax{
+    h1{font-size: 30px;}
+    .zj{text-align: right;font-size: 16px;line-height: 50px;
+        span{display: inline-block;width: 100px;border-bottom: 1px solid #d6d6d6;height: 50px;}
+    }
+    .pp{line-height: 50px;height: 50px;}   
+}
+.xl{width: 14.666%;margin: 0 1%;background: #e6e6e6;float: left;
+    div{border-left: 1px solid #cecece;border-top: 1px solid #cecece;border-right: 1px solid #cecece;}
+    h3{line-height: 55px;font-size: 16px;padding-left: 10px;border-bottom: 1px solid #cecece;}
+    ul{line-height: 40px;font-size: 14px;
+        li{border-bottom: 1px solid #cecece;padding-left: 10px;cursor: pointer;
+            &:hover{background: #d6d6d6;}
+        }
+    }
+}
 table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;
     th,td{padding: 20px 0;border:1px solid #fff;text-align: left;}
 }

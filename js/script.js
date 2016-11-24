@@ -6,7 +6,7 @@ $(function() {
 	//var bannerH=$(window).height();
 	//$('.banner').height(bannerH - 115);
 	//$('.flexslider').height(bannerH - 115);
-	
+
 	//菜单
 	var $navClick = $('#navClick'),
 		$nav = $('#nav'),
@@ -30,7 +30,7 @@ $(function() {
 		$nav.removeClass('nav-close');
 		$(this).hide();
 	});
-	
+
 	//禁止右键代码，单机鼠标右键时禁止它的默认事件
 	/*var body = document.getElementsByTagName('body')[0];
 	body.oncontextmenu = function() {
@@ -103,20 +103,22 @@ $(function() {
 			NextPage();
 		}, 4000);
 	});
-	
+
 	//tab选项卡
 	var $tabList = $('.tab_list a');
 	var $tab = $('.tab-w');
 	$tabList.click(function() {
-			$(this).addClass('this').siblings().removeClass('this');
-			var index = $tabList.index(this);
-			$tab.find('>div').eq(index).show().siblings().hide();
-			return false;
+		$(this).addClass('this').siblings().removeClass('this');
+		var index = $tabList.index(this);
+		$tab.find('>div').eq(index).show().siblings().hide();
+		return false;
 	});
 	$tabList.eq(0).click();
 	//返回顶部
 	$('#top').click(function() {
-		$('body,html').animate({scrollTop: 0}, 300);
+		$('body,html').animate({
+			scrollTop: 0
+		}, 300);
 		return false;
 	});
 	//向左滚动效果
@@ -146,3 +148,8 @@ $(function() {
 	}
 
 })
+
+function command(num) {
+	$('#zj').text(num)	;
+	return false;
+};
