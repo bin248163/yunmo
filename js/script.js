@@ -3,9 +3,33 @@ $(function() {
 		alert("您使用的IE浏览器版本过低，可能造成体验不佳，建议您更新至最新的浏览器版本或使用谷歌、火狐等现代浏览器！");
 	}
 	//浏览器高度
-	var bannerH=$(window).height();
-	$('.banner').height(bannerH - 115);
-	$('.flexslider').height(bannerH - 115);
+	//var bannerH=$(window).height();
+	//$('.banner').height(bannerH - 115);
+	//$('.flexslider').height(bannerH - 115);
+	
+	//菜单
+	var $navClick = $('#navClick'),
+		$nav = $('#nav'),
+		$navbj = $('#navbj'),
+		$closeTop = $('#closeTop');
+	$navClick.click(function() {
+		$(this).addClass('nav-animate');
+		$navbj.show();
+		$nav.addClass('nav-close');
+		$closeTop.show();
+	});
+	$navbj.click(function() {
+		$navClick.removeClass('nav-animate');
+		$(this).hide();
+		$nav.removeClass('nav-close');
+		$closeTop.hide();
+	});
+	$closeTop.click(function() {
+		$navClick.removeClass('nav-animate');
+		$navbj.hide();
+		$nav.removeClass('nav-close');
+		$(this).hide();
+	});
 	
 	//禁止右键代码，单机鼠标右键时禁止它的默认事件
 	/*var body = document.getElementsByTagName('body')[0];

@@ -35,11 +35,11 @@ transform: skewx(-25deg);-o-transform: skewx(-25deg);-moz-transform: skewx(-25de
 a{text-decoration:none;color:#666;
     &:hover{color: $color;}
 }
-.w-100{width: 100%;overflow: hidden;min-width: $width;}
+.w-100{width: 100%;overflow: hidden;}
 .w-100b{width: 100%;overflow: hidden;min-width: $width;background: $bj;}
 .n-100{width: 100%;overflow: hidden;letter-spacing:-3px; font-size:0;}
 .w-1000{width: $width;margin: 0 auto;overflow: hidden;position: relative;}//内容宽度
-.logo{float: left;padding: 10px 0;width: 200px;}
+.logo{float: left;padding: 16px 0 0;width: 140px;}
 .logo-r{float: left;padding-left: 50px;}
 .tel{float: right;}//页面顶部联系电话
 .n-left{width: $n-left;float: left;padding-right: 10px;}//内页左侧
@@ -47,14 +47,14 @@ a{text-decoration:none;color:#666;
 
 
 //header部分
-.header{overflow: hidden;min-width: $width;}
+.header{overflow: hidden;background: #333;}
 .adv-wrapper{background: #444;height: 50px;
     div{color: #8a8a8a;margin: 0 auto;line-height: 50px;text-align: right;width: $width;}
 }
-
+.head{width: $width;margin: 0 auto;}
 //导航部分
 .w-nav{width: 100%;background:$nav-bj;min-width:$width;}
-.nav{width: $width;margin: auto;height: 65px;line-height: 65px;
+.nav{height: 65px;line-height: 65px;float: left;
     ul{
         li{float: left;position: relative;text-align: center;position: relative;
             a{font-size: 15px;display: block; color: #fff;@include hover(.3s);height:100%;padding: 0 43px;
@@ -68,6 +68,53 @@ a{text-decoration:none;color:#666;
 }
 .n-nav{background: #e6e6e6;height: 48px;text-align: center;min-width: $width;
     a{line-height: 48px;padding: 0 40px;}
+}
+
+
+nav{position: relative;float: right;
+    ul{float: left;
+        li{float: left;
+            a{font-size: 15px;padding: 0 44px;display: block;height: 56px;line-height: 56px;color: #cbcbcb;
+            }
+            &:hover a{color: $color;}
+            &.current-menu-item{
+                a{color: $color;background: #333;}
+            }
+        }
+    }
+}
+.close-top{width: 20px;height: 20px;padding: 10px;position: absolute;top: 10px;right: 10px;display: none;z-index: 4;}
+.nav-bj{display: none;position: fixed;top: 0;left: 0;width: 100%;height: 120%;background: rgba(5,0,0,.7);z-index: 1;}
+.color{color: $color;}
+.nav{position: absolute;line-height: 59px;width: 20px;height:21px;margin: 10px;position: absolute;right: 10px;top: 8px;z-index: 4;display: none;
+    span{height: 2px;margin-bottom:5px;display: block;background: $color;width: 100%;@include hover;}    
+}
+.nav-close{transform: translate(0,0);-ms-transform: translate(0,0);-moz-transform: translate(0,0);-o-transform: translate(0,0);-webkit-transform: translate(0,0);overflow: hidden;}
+.nav-animate{
+    span{background: #eee;
+        &:nth-last-child(3){position:absolute;top: 7px;
+            transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            }
+        &:nth-last-child(2){opacity: 0;}
+        &:nth-last-child(1){transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            position: absolute;top: 7px;}
+    }
+}
+.nav-ss{overflow: hidden;float: right;background: #444;padding: 10px;
+    span{width: 36px;height: 36px;display:block;float: left;cursor: pointer;font-size: 18px;line-height: 36px;text-align: center;color: #cbcbcb;@include hover(.3s);}
+    input{background: #333;width: 0;height: 35px;border: none;display:block;float: left;color: #cbcbcb;@include hover(.3s);}
+    &:hover{background: #333;
+        input{width: 130px;}
+        span{margin-right: 10px;}
+    } 
 }
 .promos{float: left;width: 25%;text-align: center;margin-bottom: 20px;
     div{padding:0 2px 2px 2px;}
@@ -84,7 +131,7 @@ a{text-decoration:none;color:#666;
     h2{font-size:30px;line-height: 30px;padding-top:50px;padding-bottom: 50px;}
     p{font-size: 16px;padding-top: 20px;line-height: 36px;}
 }
-table{margin-left:50px;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 1130px;
+table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;
     th,td{padding: 20px 0;border:1px solid #fff;text-align: left;}
 }
 .table_h1{font-size: 18px;padding-left: 50px;line-height: 50px;}
@@ -224,12 +271,12 @@ table{margin-left:50px;font-size: 16px;margin-bottom: 150px;border:1px solid #ff
 }
 .flexslider:hover .flex-next:hover,
 .flexslider:hover .flex-prev:hover {opacity: 1;filter: alpha(opacity=100);}
-.flex-control-nav {width:$width;position: absolute;bottom: 10px;left: 50%;margin-left: -600px;
+.flex-control-nav {width: 100%;position: absolute;bottom: 10px;text-align: center;
     li {margin: 0 3px;display: inline-block;zoom: 1;*display: inline;}
 }
-.flex-control-paging li a {height: 11px;width: 11px;border-radius:11px;background:#e6e6e6;display: block;overflow: hidden;cursor: pointer;line-height: 99em;}
+.flex-control-paging li a {height: 11px;width: 11px;border-radius:11px;background:#bbb;background:rgba(0,0,0,.3);display: block;overflow: hidden;cursor: pointer;line-height: 99em;}
 .flex-control-paging li a.flex-active,
-.flex-control-paging li.active a {background:#ccc}
+.flex-control-paging li.active a {background:$color;}
 //fanye
 #superContainer {
     height: 100%;
@@ -381,8 +428,31 @@ table{margin-left:50px;font-size: 16px;margin-bottom: 150px;border:1px solid #ff
 #menu li a { display:block; float:left; width:10px; height:10px; text-indent:-100px; overflow:hidden; border-radius:5px; background:#fff;}
 #menu li.active a { background:#0074EA}
 
-@media screen and(max-width:$width){
 
+@media only screen and (max-width: 1200px) {
+    .w-1000{width: 100%;} 
+    .promos{width: 50%;}  
+}
+
+@media only screen and (max-width: 768px) {
+    nav{float: none;position: fixed;right: 0;top: 0;padding: 40px 20px 10px;width: 160px;height: 100%;background: #222;transform: translate(300px,0);z-index: 2;
+        -ms-transform: translate(300px,0);-moz-transform: translate(300px,0);-o-transform: translate(300px,0);-webkit-transform: translate(300px,0);@include hover;
+        ul{
+            li{display: block;border-bottom: 1px solid #333; width: 100%;
+                a{border-bottom:none; font-size: 15px;display: block;height: 45px;line-height: 55px;color:#b8b8b8; margin:0 10px;padding: 0;
+            }
+                &.current-menu-item{
+                    a{color: $color;background:none;}
+                }
+            }
+        }
+    }
+  
+    .nav{display: block}
+    .nav-ss{margin-right: 60px;}
+    .iw{
+        .in{width: 33.333%;}
+    } 
 }
 
 

@@ -1,6 +1,6 @@
 <!--#include file="top.asp"-->
 <div class="w-100">
-	<div class="banner" style="background-image:url(images/p6_02.jpg) ;"></div>
+	<div class="banner" style="background-image:url(images/p6_02.jpg) ;"><img src="../images/p6_02.jpg" alt="" /></div>
 </div>
 <div class="main">
 	<div class="pro">
