@@ -457,6 +457,7 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
 
 
 @media only screen and (max-width: 1200px) {
+    body{font-family: "微软雅黑";}
     .w-1000{width:98%;margin: 0 1%;} 
     .promos{width: 50%;}  
     .xl{width: 31.333%;}
@@ -483,11 +484,14 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
     .flexslider{height: 200px;}
     .nav{display: block}
     .nav-ss{margin-right: 60px;}
-    .iw{
+    .iw{margin-top: 20px;
         .in{width: 33.333%;
             i{width: 60%;}
         }
     } 
+    .pro{
+        p{font-size: 14px;line-height: 28px;}
+    }
     .n-nav{
         a{width: 20%;padding: 0;display:block;float: left;} 
     }
@@ -498,7 +502,13 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
             select{height: 50px;width: 90%;}
         }   
     }
-    
+    .banner{height: 250px;
+        div{
+            h1{font-size: 16px;padding-top: 10px;line-height: 20px;}
+            h2{font-size: 14px;padding-top: 10px;line-height: 15px;}
+        }
+    }
+    table{font-size: 14px;text-align: center;}
     
 }
 
