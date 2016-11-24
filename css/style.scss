@@ -465,6 +465,16 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
     .pro{padding: 20px 1%;}
     .flexslider{height: 400px;}
     .banner{height: 400px;}
+    .act{padding: 20px 0;
+        h1{font-size: 17px;border-bottom: 1px solid #d6d6d6;line-height: 40px;}
+        .news_w{padding:0;}
+        .news{
+            h2{font-size: 15px;padding:0;}
+            img{padding-top: 10px;}
+            a:hover{text-decoration: underline;}
+        }
+        p{font-size: 14px;padding-top: 20px;line-height: 36px;}
+    }
 
 }
 
@@ -508,7 +518,11 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
             h2{font-size: 14px;padding-top: 10px;line-height: 15px;}
         }
     }
-    table{font-size: 14px;text-align: center;}
+    table{font-size: 14px;text-align: center;
+        td,th{padding: 10px 0;}
+    }
+    .table_h1{font-size: 16px;padding-left: 0;border-bottom:1px solid #d6d6d6 ;}
+    
     
 }
 
