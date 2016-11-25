@@ -32,11 +32,11 @@
 	map.addOverlay(marker);              // 将标注添加到地图中
 
 	var opts = {
-	  width : 200,     // 信息窗口宽度
-	  height: 80,     // 信息窗口高度
+	  width : 250,     // 信息窗口宽度
+    // 信息窗口高度
 	  title : "乌鲁木齐航天龙腾思远汽车销售服务有限公司" , // 信息窗口标题
 	}
-	var infoWindow = new BMap.InfoWindow("地址：新疆乌鲁木齐市头屯河区头屯河公路2345号（新疆天恒基汽车文化城12栋），座机：0991-3182900", opts);  // 创建信息窗口对象 
+	var infoWindow = new BMap.InfoWindow("地址：新疆乌鲁木齐市头屯河区头屯河公路2345号（新疆天恒基汽车文化城12栋）<br>座机：0991-3182900", opts);  // 创建信息窗口对象 
 	marker.addEventListener("click", function(){          
 		map.openInfoWindow(infoWindow,point); //开启信息窗口
 	});
