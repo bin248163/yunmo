@@ -8,6 +8,8 @@
 		<meta name="keywords" content="关键词英文逗号分隔" />
 		<link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon" />
 		<link href="css/style.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/jquery.fullPage.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
 	</head>
 
 	<body>
@@ -64,62 +66,66 @@
 		</div>
 
 		<!--代码部分begin-->
-		<ul id="menu">
-			<li data-menuanchor="page1" class="active">
-				<a href="#page1">1</a>
-			</li>
-			<li data-menuanchor="page2">
-				<a href="#page2">2</a>
-			</li>
-			<li data-menuanchor="page3">
-				<a href="#page3">3</a>
-			</li>
-			<li data-menuanchor="page4">
-				<a href="#page4">4</a>
-			</li>
-			<li data-menuanchor="page5">
-				<a href="#page5">5</a>
-			</li>
-			<li data-menuanchor="page6">
-				<a href="#page6">6</a>
-			</li>
-		</ul>
 
-		<div class="section">
-			<div style="height: 100%;width:100%;background: url(images/h6_03.jpg) no-repeat center;margin: 0 auto;">
+		<div id="dowebok">
+			<div class="section">
+				<div style="height: 100%;width:100%;background: url(images/h6_03.jpg) no-repeat center;margin: 0 auto;">
 
+				</div>
+			</div>
+			<div class="section">
+				<div style="height: 100%;width:100%;background: url(images/h5_02.jpg) no-repeat center top;margin: 0 auto;"></div>
+			</div>
+			<div class="section">
+				<div style="height: 100%;width:100%;background: url(images/h1_03.jpg) no-repeat center;margin: 0 auto;"></div>
+			</div>
+			<div class="section">
+				<div style="height: 100%;width:100%;background: url(images/h2_07.jpg) no-repeat center;margin: 0 auto;"></div>
+			</div>
+			<div class="section">
+				<div style="height: 100%;width:100%;background: url(images/h3_10.jpg) no-repeat center top;margin: 0 auto;"></div>
+			</div>
+			<div class="section">
+				<div style="height: 100%;width:100%;background: url(images/h4_12.jpg) no-repeat center bottom;margin: 0 auto;"></div>
 			</div>
 		</div>
-		<div class="section">
-			<div style="height: 100%;width:100%;background: url(images/h5_02.jpg) no-repeat center top;margin: 0 auto;"></div>
-		</div>
-		<div class="section">
-			<div style="height: 100%;width:100%;background: url(images/h1_03.jpg) no-repeat center;margin: 0 auto;"></div>
-		</div>
-		<div class="section">
-			<div style="height: 100%;width:100%;background: url(images/h2_07.jpg) no-repeat center;margin: 0 auto;"></div>
-		</div>
-		<div class="section">
-			<div style="height: 100%;width:100%;background: url(images/h3_10.jpg) no-repeat center top;margin: 0 auto;"></div>
-		</div>
-		<div class="section">
-			<div style="height: 100%;width:100%;background: url(images/h4_12.jpg) no-repeat center bottom;margin: 0 auto;"></div>
-		</div>
-
 		<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
-
+		<script src="js/jquery-ui-1.10.3.min.js"></script>
 		<script src="js/jquery.fullPage.min.js"></script>
 		<script>
 			$(function() {
-				$.fn.fullpage({
-					slidesColor: ['#fff', '#fff', '#000', '#000', '#f6f6f6', '#f7f7f7'],
-					anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
-					menu: '#menu'
+				$(function() {
+					$('#dowebok').fullpage({
+						sectionsColor: ['#fff', '#fff', '#000', '#000', '#f6f6f6', '#f7f7f7'],
+						'navigation': true,
+					});
+				});
+				//菜单
+				var $navClick = $('#navClick'),
+					$nav = $('#nav'),
+					$navbj = $('#navbj'),
+					$closeTop = $('#closeTop');
+				$navClick.click(function() {
+					$(this).addClass('nav-animate');
+					$navbj.show();
+					$nav.addClass('nav-close');
+					$closeTop.show();
+				});
+				$navbj.click(function() {
+					$navClick.removeClass('nav-animate');
+					$(this).hide();
+					$nav.removeClass('nav-close');
+					$closeTop.hide();
+				});
+				$closeTop.click(function() {
+					$navClick.removeClass('nav-animate');
+					$navbj.hide();
+					$nav.removeClass('nav-close');
+					$(this).hide();
 				});
 			});
 		</script>
-		
-        <script src="js/script.js"></script>
+
 	</body>
 
 </html>
