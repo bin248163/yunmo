@@ -1,9 +1,9 @@
 @charset "utf-8";//设置此项才能编译通过有中文的注释的scss文件
-@import "Globalstyle.scss";//插入外部文件：全局样式
-/*
+/*!
 Author:  前小端 
 Author url: http://qianxiaoduan.com/
 */
+@import "Globalstyle.scss";//插入外部文件：全局样式
 $color:#777;//定义全局主色
 $bj:#eee;//定义页面灰色背景
 $width:1200px;//定义网站宽度
