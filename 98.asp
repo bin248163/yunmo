@@ -62,7 +62,6 @@
 			<th>太阳能<br />总阻隔率</th>
 		</tr>
 		<tr>
-			<td rowspan="4">冰度98<br />隔热套装</td>
 			<td>S900P</td>
 			<td>前档</td>
 			<td>浅蓝色</td>
