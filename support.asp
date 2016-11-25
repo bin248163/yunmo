@@ -11,6 +11,57 @@
 	</head>
 
 	<body>
+		<div class="header" style="position: fixed;top: 0;left: 0;z-index: 999999;width: 100%;">
+			<div class="adv-wrapper">
+				<div>
+					< 广告>
+				</div>
+			</div>
+			<div class="head">
+				<div class="logo">
+					<a href="index.asp"><img src="images/logo_03.jpg" /></a>
+				</div>
+				<div class="nav" id="navClick">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="close-top" id="closeTop"></div>
+
+				<nav id="nav">
+
+					<ul>
+						<li>
+							<a href="100.asp">100</a>
+						</li>
+						<li>
+							<a href="360.asp">360</a>
+						</li>
+						<li>
+							<a href="98.asp">98</a>
+						</li>
+						<li>
+							<a href="77.asp">77</a>
+						</li>
+						<li>
+							<a href="24.asp">24</a>
+						</li>
+						<li>
+							<a href="10.asp">10</a>
+						</li>
+						<li>
+							<a href="support.asp">技术支持</a>
+						</li>
+						<li>
+							<a href="login.asp">登陆 / 注册</a>
+						</li>
+					</ul>
+
+				</nav>
+			</div>
+
+			<div class="nav-bj" id="navbj"></div>
+		</div>
 
 		<!--代码部分begin-->
 		<ul id="menu">
@@ -36,46 +87,7 @@
 
 		<div class="section">
 			<div style="height: 100%;width:100%;background: url(images/h6_03.jpg) no-repeat center;margin: 0 auto;">
-				<div class="header">
-				<div class="adv-wrapper">
-					<div>
-						< 广告>
-					</div>
-				</div>
-				<div class="w-nav">
-					<div class="nav" id="nav">
-						<ul>
-							<li>
-								<a href="index.asp"><img src="images/logo_03.jpg" /></a>
-							</li>
-							<li>
-								<a href="100.asp">100</a>
-							</li>
-							<li>
-								<a href="360.asp">360</a>
-							</li>
-							<li>
-								<a href="98.asp">98</a>
-							</li>
-							<li>
-								<a href="77.asp">77</a>
-							</li>
-							<li>
-								<a href="24.asp">24</a>
-							</li>
-							<li>
-								<a href="10.asp">10</a>
-							</li>
-							<li>
-								<a href="support.asp">技术支持</a>
-							</li>
-							<li>
-								<a href="login.asp">登陆 / 注册</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
+
 			</div>
 		</div>
 		<div class="section">
@@ -94,8 +106,8 @@
 			<div style="height: 100%;width:100%;background: url(images/h4_12.jpg) no-repeat center bottom;margin: 0 auto;"></div>
 		</div>
 
-		<script src="http://www.lanrenzhijia.com/ajaxjs/jquery.min.js"></script>
-		<script src="js/jquery-ui-1.10.3.min.js"></script>
+		<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+
 		<script src="js/jquery.fullPage.min.js"></script>
 		<script>
 			$(function() {
@@ -106,8 +118,8 @@
 				});
 			});
 		</script>
-		<script src="js/jquery.fullPage.min.js"></script>
-		<script src="js/jquery-ui-1.10.3.min.js"></script>
+		
+        <script src="js/script.js"></script>
 	</body>
 
 </html>

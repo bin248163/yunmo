@@ -53,7 +53,7 @@ a{text-decoration:none;color:#666;
 }
 .head{width: $width;margin: 0 auto;height: 56px;}
 //导航部分
-.w-nav{width: 100%;background:$nav-bj;min-width:$width;}
+.w-nav{width: 100%;background:$nav-bj;}
 .nav{height: 65px;line-height: 65px;float: left;
     ul{
         li{float: left;position: relative;text-align: center;position: relative;
@@ -567,10 +567,12 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
     }
     .bz{width:100%;height:200px;}
     .brand_l{float: none;width: 100%;padding-bottom: 20px;padding-top: 20px;
-        h1{font-size: 16px;}
+        h1{font-size: 16px;line-height: 30px;padding: 0;}
         p{font-size: 14px;padding: 0;line-height: 28px;}
     }
-    .brand_r{float: none;width: 100%;padding-bottom: 20px;padding-top: 0;}
+    .brand_r{float: none;width: 100%;padding-bottom: 20px;padding-top: 0;
+        h1{font-size: 16px;line-height: 30px;padding: 0;}
+    }
 }
 
 
