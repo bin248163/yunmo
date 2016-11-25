@@ -1,7 +1,7 @@
 <!--#include file="top.asp"-->
 <div class="w-100">
 	<div class="banner" style="background-image:url(images/p6_02.jpg) ;">
-		<img src="images/p6_02.jpg" alt="" />
+		
 		<div>
 			<h1>光年10 恒色套装</h1>
 		<h2>10年不褪色，一次选择，永恒陪伴</h2>

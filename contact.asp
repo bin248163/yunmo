@@ -17,7 +17,7 @@
 				地址：陕西省西安市国家民用航天产业基地航天中路309号
 				</p>
 			</div>
-			<iframe src="map.html" style="width:700px;height: 500px;float: left;"  frameborder="0" scrolling="no"></iframe>
+			<iframe src="map.html" class="bz" frameborder="0" scrolling="no"></iframe>
 			
 		</div>
 	
