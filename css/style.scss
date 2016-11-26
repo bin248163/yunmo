@@ -298,7 +298,7 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
 }
 .flexslider:hover .flex-next:hover,
 .flexslider:hover .flex-prev:hover {opacity: 1;filter: alpha(opacity=100);}
-.flex-control-nav {width: 100%;position: absolute;bottom: 10px;text-align: center;
+.flex-control-nav {width: 100%;position: absolute;bottom: 0;text-align: center;
     li {margin: 0 3px;display: inline-block;zoom: 1;*display: inline;}
 }
 .flex-control-paging li a {height: 11px;width: 11px;border-radius:11px;background:#bbb;background:rgba(0,0,0,.3);display: block;overflow: hidden;cursor: pointer;line-height: 99em;}
@@ -573,6 +573,7 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
     .brand_r{float: none;width: 100%;padding-bottom: 20px;padding-top: 0;
         h1{font-size: 16px;line-height: 30px;padding: 0;}
     }
+    .flex-control-paging li a {height: 5px;width: 5px;}
 }
 
 
