@@ -3,7 +3,7 @@
 Author:  前小端 
 Author url: http://www.qianxiaoduan.com/
 */
-@import "Globalstyle.scss";//插入外部文件：全局样式
+@import "Globalstyle.scss";//插入外部文
 $color:#777;//定义全局主色
 $bj:#eee;//定义页面灰色背景
 $width:1200px;//定义网站宽度
@@ -269,6 +269,22 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
         p{font-size: 16px;}
     }
 }
+.sf{overflow: hidden;margin-top: 20px;
+    h2{line-height: 40px;}
+    ul{width: 100%;
+        li{float: left;width: 20%;
+            span{padding:0 10px 0 0;float: left;line-height: 35px;}
+        }
+    }
+    input{display: block;height: 35px;width: 120px;float: left;}
+    input[type="button"] {background: #333;color: #fff;padding: 0 20px;border: 1px solid #d6d6d6;}          
+    select {height: 35px;width: 150px;}
+}
+.result{font-size: 14px;line-height: 28px;margin: 20px 0;
+    ul li{margin-bottom: 10px;
+        span{padding-right: 20px;}
+    } 
+}
 //点击滚动
 .gd{width:100%;height:auto;overflow:hidden;position:relative;}
 .gd_prev{height: 70px; font-size: 40px;line-height: 70px;position: absolute;top: 50%;left: 0;z-index: 9;font-family: "宋体";background: $color;color: #fff;cursor: pointer;margin-top: -35px;}
@@ -486,6 +502,15 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
             }
         } 
     }
+    .sf{
+        ul{
+            li{
+                
+            }
+        }
+        select{width: 90px;}
+        input{width: 80px;}
+    }
 
 }
 
@@ -574,6 +599,22 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
         h1{font-size: 16px;line-height: 30px;padding: 0;}
     }
     .flex-control-paging li a {height: 5px;width: 5px;}
+    .sf{
+        ul{
+            li{width: 100%;margin-bottom: 10px;
+                span{display: none;}
+            }
+        }
+        select{width: 90%;margin: 0 0 0 5%;}
+        input{width: 90%;margin: 0 0 0 5%;}
+    }
+    .result{
+        ul{
+            li{
+                span{display: block;width: 100%;}
+            }
+        }
+    }
 }
 
 
