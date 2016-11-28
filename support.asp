@@ -69,12 +69,16 @@
 
 		<div id="dowebok">
 			<div class="section">
-				<div style="height: 100%;width:100%;background: url(images/h6_03.jpg) no-repeat center;margin: 0 auto;">
+				<div class="section1" style="background-image: url(images/h6_03.jpg);">
 
 				</div>
 			</div>
 			<div class="section">
-				<div style="height: 100%;width:100%;background: url(images/h5_02.jpg) no-repeat center top;margin: 0 auto;"></div>
+				<div class="section2">
+					<div class="section2_l"></div>
+					<div class="section2_r" style="background-image: url(images/h52_02.jpg);"></div>
+					
+				</div>
 			</div>
 			<div class="section">
 				<div style="height: 100%;width:100%;background: url(images/h1_03.jpg) no-repeat center;margin: 0 auto;"></div>

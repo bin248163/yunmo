@@ -3,9 +3,13 @@ $(function() {
 		alert("您使用的IE浏览器版本过低，可能造成体验不佳，建议您更新至最新的浏览器版本或使用谷歌、火狐等现代浏览器！");
 	}
 	//浏览器高度
-	//var bannerH=$(window).height();
-	//$('.banner').height(bannerH - 115);
-	//$('.flexslider').height(bannerH - 115);
+	var bannerW=$(window).width();
+	var bannerH=$(window).height();
+	if(bannerW > 1200){
+		$('.banner').height(bannerH - 380);
+		$('.flexslider').height(bannerH - 325);
+	}
+	
 
 	//菜单
 	var $navClick = $('#navClick'),
