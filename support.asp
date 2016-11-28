@@ -75,13 +75,16 @@
 			</div>
 			<div class="section">
 				<div class="section2">
-					<div class="section2_l"></div>
+					<div class="section2_l" style="background-image: url(images/h51_03.jpg);"></div>
 					<div class="section2_r" style="background-image: url(images/h52_02.jpg);"></div>
 					
 				</div>
 			</div>
 			<div class="section">
-				<div style="height: 100%;width:100%;background: url(images/h1_03.jpg) no-repeat center;margin: 0 auto;"></div>
+				<div class="section3">
+					<div class="section3_l" style="background-image: url(images/h11_01.jpg);"></div>
+					<div class="section3_r" style="background-image: url(images/h12_04.jpg);"></div>					
+				</div>
 			</div>
 			<div class="section">
 				<div style="height: 100%;width:100%;background: url(images/h2_07.jpg) no-repeat center;margin: 0 auto;"></div>
