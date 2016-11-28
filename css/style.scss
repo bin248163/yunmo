@@ -294,11 +294,11 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
 .section1{background-repeat: no-repeat;background-position: center;height:100%;width: 100%;margin: 0 auto;}
 .section2{height:calc(100% - 100px);width: 100%;margin: 100px auto 0;position: relative;
     .section2_l{position: absolute;left: 50%;margin-left: -600px;top: 50%;width: 608px;height: 183px;z-index: 2;background-repeat: no-repeat;}
-    .section2_r{top: 0;right: 0;width: 889px;height: 662px;background-repeat: no-repeat;background-position:right top;position: absolute;}
+    .section2_r{top: 0;right: 0;width: 889px;height: 662px;background-repeat: no-repeat;background-position:center;position: absolute;}
 }
 .section3{height:calc(100% - 100px);width: 100%;margin: 100px auto 0;position: relative;
-    .section3_l{position: absolute;left: 50%;margin-left: -600px;top: 50%;width: 608px;height: 183px;z-index: 2;background-repeat: no-repeat;}
-    .section3_r{top: 0;right: 0;width: 889px;height: 662px;background-repeat: no-repeat;background-position:right top;position: absolute;}
+    .section3_l{position: absolute;left: 50%;margin-left: -600px;top: 50%;width: 505px;height: 614px;z-index: 2;background-repeat: no-repeat;margin-top: -310px;}
+    .section3_r{top: 50%;right: 50%;width: 494px;height: 257px;background-repeat: no-repeat;background-position:right top;position: absolute;margin-right: -600px;margin-top: -128px;}
 }
 //点击滚动
 .gd{width:100%;height:auto;overflow:hidden;position:relative;}
@@ -410,6 +410,14 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
         input{width: 80px;}
     }
     .section1{background-size:80% auto ;}
+    .section2{
+        .section2_l{position: absolute;left: 10%;top: 60%;width: 80%;height: 183px;z-index: 2;margin-left: 0;background-size: 100% auto;}
+        .section2_r{top: 0;right: 0;width: 80%;height: 100%;background-repeat: no-repeat;background-position:right top;position: absolute;background-size: 100% auto;}
+    }
+    .section3{
+        .section3_l{position: absolute;left: 0;top: 0;width:100%;height: 60%;z-index: 2;background-repeat: no-repeat;margin: 0;background-size: 50% auto;background-position:center;}
+        .section3_r{top: 60%;left: 0;width: 100%;height: 40%;background-repeat: no-repeat;background-position:center;position: absolute;margin: 0;background-size: 60% auto;}
+    }
 }
 
 @media only screen and (max-width: 768px) {
