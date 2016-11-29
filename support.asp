@@ -77,17 +77,20 @@
 				<div class="section2">
 					<div class="section2_l" style="background-image: url(images/h51_03.jpg);"></div>
 					<div class="section2_r" style="background-image: url(images/h52_02.jpg);"></div>
-					
+
 				</div>
 			</div>
 			<div class="section">
 				<div class="section3">
 					<div class="section3_l" style="background-image: url(images/h11_01.jpg);"></div>
-					<div class="section3_r" style="background-image: url(images/h12_04.jpg);"></div>					
+					<div class="section3_r" style="background-image: url(images/h12_04.jpg);"></div>
 				</div>
 			</div>
 			<div class="section">
-				<div style="height: 100%;width:100%;background: url(images/h2_07.jpg) no-repeat center;margin: 0 auto;"></div>
+				<div class="section4">
+					<div class="section4_l" style="background-image: url(images/h21_03.jpg);" data-scroll-reveal="enter left"></div>
+					<div class="section4_r" style="background-image: url(images/h22_06.jpg);"></div>
+				</div>
 			</div>
 			<div class="section">
 				<div style="height: 100%;width:100%;background: url(images/h3_10.jpg) no-repeat center top;margin: 0 auto;"></div>
@@ -99,12 +102,46 @@
 		<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
 		<script src="js/jquery-ui-1.10.3.min.js"></script>
 		<script src="js/jquery.fullPage.min.js"></script>
+
 		<script>
 			$(function() {
 				$(function() {
 					$('#dowebok').fullpage({
 						sectionsColor: ['#fff', '#fff', '#000', '#000', '#f6f6f6', '#f7f7f7'],
 						'navigation': true,
+						afterLoad: function(anchorLink, index) {
+							if(index == 2) {
+								$('.section2').find('.section2_l').animate({
+									left: '50%',opacity:'1',
+								}, 1500, 'easeOutExpo');
+								$('.section2').find('.section2_r').animate({
+									right:'0',opacity:'1',
+								}, 1500, 'easeOutExpo');
+							}
+							if(index == 3) {
+								$('.section3').find('div').delay(500).animate({
+									bottom: '0'
+								}, 1500, 'easeOutExpo');
+							}
+							if(index == 4) {
+								$('.section4').find('div').fadeIn(2000);
+							}
+						},
+						onLeave: function(index, direction) {
+							if(index == '2') {
+								$('.section2').find('.section2_l').delay(500).animate({
+									left: '50%'
+								}, 1500, 'easeOutExpo');
+							}
+							if(index == '3') {
+								$('.section3').find('div').delay(500).animate({
+									bottom: '-120%'
+								}, 1500, 'easeOutExpo');
+							}
+							if(index == '4') {
+								$('.section4').find('div').fadeOut(2000);
+							}
+						}
 					});
 				});
 				//菜单
