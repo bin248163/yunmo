@@ -98,7 +98,10 @@
 				</div>
 			</div>
 			<div class="section">
-				
+				<div class="section6">
+					<div class="section6_l" style="background-image: url(images/h41_03.jpg);"></div>
+					<div class="section6_r" style="background-image: url(images/h42_06.jpg);"></div>
+				</div>
 			</div>
 		</div>
 		<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
@@ -111,39 +114,7 @@
 					$('#dowebok').fullpage({
 						sectionsColor: ['#fff', '#fff', '#000', '#000', '#f6f6f6', '#f7f7f7'],
 						'navigation': true,
-						afterLoad: function(anchorLink, index) {
-							if(index == 2) {
-								$('.section2').find('.section2_l').animate({
-									left: '50%',opacity:'1',
-								}, 1500, 'easeOutExpo');
-								$('.section2').find('.section2_r').animate({
-									right:'0',opacity:'1',
-								}, 1500, 'easeOutExpo');
-							}
-							if(index == 3) {
-								$('.section3').find('div').delay(500).animate({
-									bottom: '0'
-								}, 1500, 'easeOutExpo');
-							}
-							if(index == 4) {
-								$('.section4').find('div').fadeIn(2000);
-							}
-						},
-						onLeave: function(index, direction) {
-							if(index == '2') {
-								$('.section2').find('.section2_l').delay(500).animate({
-									left: '50%'
-								}, 1500, 'easeOutExpo');
-							}
-							if(index == '3') {
-								$('.section3').find('div').delay(500).animate({
-									bottom: '-120%'
-								}, 1500, 'easeOutExpo');
-							}
-							if(index == '4') {
-								$('.section4').find('div').fadeOut(2000);
-							}
-						}
+						
 					});
 				});
 				//菜单
