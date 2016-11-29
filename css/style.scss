@@ -164,7 +164,7 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
 }
 .table_h1{font-size: 18px;padding-left: 50px;line-height: 50px;}
 .su{height: 4156px;background: url(../images/su_02.jpg) no-repeat center top;min-width: $width;}
-.not{padding: 100px 50px 80px 50px;border-bottom: 1px solid #d6d6d6;
+.not{padding: 100px 0 80px;border-bottom: 1px solid #d6d6d6;
     h1{font-size: 30px;line-height: 60px;color: #4d4d4d;}
     p{font-size: 16px;padding-top: 20px;line-height: 36px;}
 }
@@ -287,8 +287,11 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
     select {height: 35px;width: 150px;}
 }
 .result{font-size: 14px;line-height: 28px;margin: 20px 0;
-    ul li{margin-bottom: 10px;
-        span{padding-right: 20px;}
+    h1{font-size: 18px;}
+    ul{border: 1px solid #d6d6d6;padding: 20px;margin-top: 20px;
+        li{margin-bottom: 10px;
+            span{padding-right: 20px;}
+        } 
     } 
 }
 .section1{background-repeat: no-repeat;background-position: center;height:100%;width: 100%;margin: 0 auto;}
@@ -457,7 +460,7 @@ table{margin-left:1%;font-size: 16px;margin-bottom: 150px;border:1px solid #fff;
             }
         }
     }
-    .flexslider{height: 200px;}
+    .flexslider{height: 180px;}
     .nav{display: block}
     .nav-ss{margin-right: 60px;}
     .iw{margin-top: 20px;
