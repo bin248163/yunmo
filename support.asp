@@ -88,15 +88,17 @@
 			</div>
 			<div class="section">
 				<div class="section4">
-					<div class="section4_l" style="background-image: url(images/h21_03.jpg);" data-scroll-reveal="enter left"></div>
+					<div class="section4_l" style="background-image: url(images/h21_03.jpg);"></div>
 					<div class="section4_r" style="background-image: url(images/h22_06.jpg);"></div>
 				</div>
 			</div>
 			<div class="section">
-				<div style="height: 100%;width:100%;background: url(images/h3_10.jpg) no-repeat center top;margin: 0 auto;"></div>
+				<div class="section5" style="background-image: url(images/h32_01.jpg);">
+					<div class="section5_l" style="background-image: url(images/h31_03.jpg);"></div>
+				</div>
 			</div>
 			<div class="section">
-				<div style="height: 100%;width:100%;background: url(images/h4_12.jpg) no-repeat center bottom;margin: 0 auto;"></div>
+				
 			</div>
 		</div>
 		<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
