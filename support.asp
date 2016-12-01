@@ -69,8 +69,8 @@
 
 		<div id="dowebok">
 			<div class="section">
-				<div class="section1" style="background-image: url(images/h6_03.jpg);">
-
+				<div class="section1" style="background-image: url(images/wd.png);">
+					<h1>全球五大核心科技，专业值得信赖</h1>
 				</div>
 			</div>
 			<div class="section">
@@ -102,7 +102,7 @@
 				</div>
 			</div>
 			<div class="section">
-				<div class="section5" style="background-image: url(images/h32_01.jpg);">
+				<div class="section5" style="background-image: url(images/hs.png);">
 					<div class="section5_l">
 						<h1>全球最新恒色技术</h1>
 						<p>采用优质聚酯薄膜及先进生产工艺，结合调色技术，改变光照导致的褪色现象，实现持久保色的效果，长达10年甚至更长。</p>
