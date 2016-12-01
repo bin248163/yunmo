@@ -3,13 +3,41 @@ $(function() {
 		alert("您使用的IE浏览器版本过低，可能造成体验不佳，建议您更新至最新的浏览器版本或使用谷歌、火狐等现代浏览器！");
 	}
 	//浏览器高度
-	var bannerW=$(window).width();
-	var bannerH=$(window).height();
-	if(bannerW > 1200){
+	var bannerW = $(window).width();
+	var bannerH = $(window).height();
+	if(bannerW > 1200) {
 		$('.banner').height(bannerH - 380);
 		$('.flexslider').height(bannerH - 325);
 	}
-	
+
+	var input1 = $('.form1 input');
+	var input2 = $('.form2 input');
+	var input3 = $('.form3 input');
+	var input4 = $('.form4 input');
+	$('.form1 button').click(function() {
+		if(input1.eq(0).val() == '' || input1.eq(1).val() == '' || input1.eq(2).val() == '' || input1.eq(3).val() == '' || input1.eq(4).val() == '' || input1.eq(5).val() == '' || input1.eq(6).val() == '' || input1.eq(7).val() == '' || input1.eq(8).val() == '') {
+			alert("请填写完整信息！");
+			return false;
+		}
+	})
+	$('.form2 button').click(function() {
+		if(input2.eq(0).val() == '' || input2.eq(1).val() == '' || input2.eq(2).val() == '' || input2.eq(3).val() == '' || input2.eq(4).val() == '' || input2.eq(5).val() == '' || input2.eq(6).val() == '' || input2.eq(7).val() == '' || input2.eq(8).val() == '') {
+			alert("请填写完整信息！");
+			return false;
+		}
+	})
+	$('.form3 button').click(function() {
+		if(input3.eq(0).val() == '' || input3.eq(1).val() == '' || input3.eq(2).val() == '' || input3.eq(3).val() == '' || input3.eq(4).val() == '' || input3.eq(5).val() == '' || input3.eq(6).val() == '' || input3.eq(7).val() == '' || input3.eq(8).val() == '') {
+			alert("请填写完整信息！");
+			return false;
+		}
+	})
+	$('.form4 button').click(function() {
+		if(input4.eq(0).val() == '' || input4.eq(1).val() == '' || input4.eq(2).val() == '') {
+			alert("请填写完整信息！");
+			return false;
+		}
+	})
 
 	//菜单
 	var $navClick = $('#navClick'),
@@ -21,18 +49,21 @@ $(function() {
 		$navbj.show();
 		$nav.addClass('nav-close');
 		$closeTop.show();
+		$('body').css({'overflow':'hidden','position':'fixed','width':'100%'});
 	});
 	$navbj.click(function() {
 		$navClick.removeClass('nav-animate');
 		$(this).hide();
 		$nav.removeClass('nav-close');
 		$closeTop.hide();
+		$('body').css({'overflow':'visible','position':'static'});
 	});
 	$closeTop.click(function() {
 		$navClick.removeClass('nav-animate');
 		$navbj.hide();
 		$nav.removeClass('nav-close');
 		$(this).hide();
+		$('body').css({'overflow':'visible','position':'static'});
 	});
 
 	//禁止右键代码，单机鼠标右键时禁止它的默认事件
@@ -154,6 +185,6 @@ $(function() {
 })
 
 function command(num) {
-	$('#zj').text(num)	;
+	$('#zj').text(num);
 	return false;
 };

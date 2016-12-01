@@ -89,7 +89,7 @@ nav{position: relative;float: right;
 .nav{position: absolute;line-height: 59px;width: 20px;height:21px;margin: 10px;position: absolute;right: 10px;top: 8px;z-index: 4;display: none;
     span{height: 2px;margin-bottom:5px;display: block;background: $color;width: 100%;@include hover;}    
 }
-.nav-close{transform: translate(0,0);-ms-transform: translate(0,0);-moz-transform: translate(0,0);-o-transform: translate(0,0);-webkit-transform: translate(0,0);overflow: hidden;}
+.nav-close{transform: translate(0,0);-ms-transform: translate(0,0);-moz-transform: translate(0,0);-o-transform: translate(0,0);-webkit-transform: translate(0,0);overflow-y: auto;}
 .nav-animate{
     span{background: #eee;
         &:nth-last-child(3){position:absolute;top: 7px;
@@ -263,6 +263,18 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;
     .join_l{float: left;width: 40%;}
     button{width: 200px;height: 60px;line-height: 60px;text-align: center;background: #e6e6e6;border: none;float: right;margin-top: 50px;cursor: pointer;}
 }
+.join1{font-size: 16px;overflow: hidden;margin-bottom: 100px;margin-top: 100px;
+    h1{font-size: 30px;line-height: 40px;}
+    p{padding-bottom: 30px;line-height: 35px;padding-top: 20px;}
+    div{line-height: 40px;margin-bottom: 10px;overflow: hidden;
+        span{display: inline-block;line-height: 40px;min-width: 100px;vertical-align:top;}
+        input{height: 38px;width: 328px;border: 1px solid #d6d6d6;outline: none;}
+        textarea{min-width: 400px;border: 1px solid #d6d6d6;min-height: 38px;}
+        .check{width: 20px;margin-left: 10px;border: none;}
+    }
+    .join_l{float: left;width: 40%;}
+    button{width: 200px;height: 60px;line-height: 60px;text-align: center;background: #e6e6e6;border: none;float: right;margin-top: 50px;cursor: pointer;}
+}
 .contact{font-size: 16px;overflow: hidden;margin-bottom: 100px;margin-top: 100px;
     h1{font-size: 30px;line-height: 40px;}
     p{padding-bottom: 30px;line-height: 35px;padding-top: 20px;}
@@ -294,8 +306,8 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;
         } 
     } 
 }
-.section1{background-repeat: no-repeat;background-position: center top;height:100%;width: 100%;margin: 0 auto;background-color: #020202;background-size: 800px auto;
-    h1{text-align: center;width: 100%;position: absolute;top: 50%;left: 0;color: #fff;font-size: 60px;line-height: 70px;}
+.section1{background-repeat: no-repeat;background-position: center top;height:100%;width: 100%;margin: 0 auto;background-color: #020202;background-size: 1000px auto;
+    h1{text-align: center;width: 100%;position: absolute;top: 50%;left: 0;color: #fff;font-size: 40px;line-height: 70px;}
 }
 .section2{height:calc(100% - 100px);width: 100%;margin: 100px auto 0;position: relative;
     .section2_l{position: absolute;right: 50%;margin-right: -600px;top: 50%;width: 608px;height: 183px;z-index: 2;
@@ -477,11 +489,48 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;
             p{font-size: 16px;padding-top: 10px;line-height: 32px;}
         }
     }
+    .join{margin-top: 30px;
+        h1{font-size: 22px;}
+        div{margin-bottom: 0;
+            textarea{min-width: 99%;}
+        }
+        .join_l{width: 100%;margin-bottom: 10px;}
+        button{width: 100%;height: 50px;float: none;line-height: 50px;margin-top: 30px;}
+    }
+    .join1{margin-top: 30px;
+        h1{font-size: 22px;}
+        div{margin-bottom: 10px;
+            textarea{min-width: 99%;}
+        }
+        .join_l{width: 100%;margin-bottom: 10px;}
+        button{width: 100%;height: 50px;float: none;line-height: 50px;margin-top: 20px;}
+    }
+    .contact{margin:20px 0;
+        h1{font-size: 16px;}
+        .contact_l{width: 100%;float: none;padding: 0;
+            p{font-size: 14px;}
+        }
+        
+    }
+    .bz{width:100%;height:400px;}
 }
 
 @media only screen and (max-width: 700px) {
-    .section1{background-size:80% auto ;
-         h1{text-align: center;width: 100%;position: absolute;top: 50%;left: 0;color: #fff;font-size: 30px;line-height: 70px;}
+    .tab_list{margin-top: 20px;height: 40px;
+        a{padding: 0;float: left;width: 50%;text-align: center;line-height: 40px;}
+    }
+    .tab-w{padding-top: 20px;
+        .tab{
+            p{padding-bottom: 10px;}
+            div{margin-bottom: 10px;
+                textarea{width: 99%;min-width: 99%;}
+            }
+            button{width: 100%;height: 50px;float: none;line-height: 50px;}
+        }
+    }
+    .pb-20{padding: 0;}
+    .section1{background-size:90% auto ;
+         h1{text-align: center;width: 100%;position: absolute;top: 50%;left: 0;color: #fff;font-size: 20px;line-height: 70px;}
     }
     .section2{height:calc(100% - 56px);margin: 56px auto 0;
         .section2_l{position: absolute;right: 5%;top: 50%;width: 90%;z-index: 2;margin: 0;
@@ -492,7 +541,7 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;
     }
     .section3{height:calc(100% - 56px);width: 100%;margin: 56px auto 0;
         .section3_l{position: absolute;left:10%;margin-left: 0;top: 0;width: 80%;height:50%;background-repeat: no-repeat;margin-top:0;background-size: 60% auto;background-position: center top;}
-        .section3_r{top: 30%;left: 10%;width: 80%;margin-top: 0;position: absolute;color: #fff;z-index: 2;
+        .section3_r{top: 50%;left: 10%;width: 80%;margin-top: 0;position: absolute;color: #fff;z-index: 2;
             h1{font-size: 20px;}
             p{font-size: 16px;padding-top: 10px;line-height: 32px;}
         }
@@ -505,7 +554,7 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;
         .section4_r{top: 60%;right: 0;width: 100%;height: 50%;background-repeat: no-repeat;background-position:center top;position: absolute;margin-right: 0;margin-top: 0;background-size: 100% auto;}
     }
     .section5{height:calc(100% - 56px);width: 100%;margin: 56px auto 0;
-        .section5_l{position: absolute;left:10%;top: 30%;width: 80%;z-index: 2;
+        .section5_l{position: absolute;left:10%;top: 10%;width: 80%;z-index: 2;
             h1{font-size: 20px;}
             p{font-size: 16px;padding-top: 10px;line-height: 32px;}
         }
@@ -518,9 +567,9 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;
         }
     }
     .adv-wrapper{display: none;}
-    nav{float: none;position: fixed;right: 0;top: 0;padding: 40px 20px 10px;width: 160px;height: 100%;background: #222;transform: translate(300px,0);z-index: 2;
+    nav{float: none;position: fixed;right: 0;top: 0;width: 200px;height: 100%;background: #222;transform: translate(300px,0);z-index: 2;
         -ms-transform: translate(300px,0);-moz-transform: translate(300px,0);-o-transform: translate(300px,0);-webkit-transform: translate(300px,0);@include hover;
-        ul{
+        ul{padding: 40px 10% 10px;width: 80%;
             li{display: block;border-bottom: 1px solid #333; width: 100%;
                 a{border-bottom:none; font-size: 15px;display: block;height: 45px;line-height: 55px;color:#b8b8b8; margin:0 10px;padding: 0;
             }
@@ -587,13 +636,7 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;
         p{font-size: 14px;}
     }
     .p_fl h2{font-size: 18px;}
-    .contact{margin:20px 0;
-        h1{font-size: 16px;}
-        .contact_l{width: 100%;float: none;padding: 0;
-            p{font-size: 14px;}
-        }
-        
-    }
+    
     .bz{width:100%;height:200px;}
     .brand_l{float: none;width: 100%;padding-bottom: 20px;padding-top: 20px;
         h1{font-size: 16px;line-height: 30px;padding: 0;}
