@@ -6,6 +6,9 @@
 	<a href="query.asp">质保查询</a>
 	<a href="quality.asp">售后服务</a>
 </div>
+<div class="w-100">
+	<img src="images/tm.jpg" alt="" style="width: 100%;"/>
+</div>
 <div class="w-1000">
 	<div class="not">
 		<h1>贴膜须知：</h1>

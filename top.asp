@@ -3,9 +3,9 @@
 
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>网站首页</title>
-		<meta name="description" content="描述" />
-		<meta name="keywords" content="关键词英文逗号分隔" />
+		<title>航天云膜</title>
+		<meta name="description" content="航天云膜" />
+		<meta name="keywords" content="航天云膜" />
 		<link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon" />
 		<link href="css/style.css" rel="stylesheet" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
@@ -15,7 +15,7 @@
 		<div class="header">
 			<div class="adv-wrapper">
 				<div>
-					< 广告>
+					
 				</div>
 			</div>
 			<div class="head">

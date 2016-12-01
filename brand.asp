@@ -18,31 +18,35 @@
 <div class="w-1000">
 	<div class="promos">
 		<a href="activity.asp">
-			<div><img src="images/s1_07.jpg" alt="" /></div>
-			<h2>市场活动</h2>
-			<p>activity</p>
+			<div style="background-image: url(images/s1_07.jpg);">
+				<h2>市场活动</h2>
+				<p>activity</p>
+			</div>
 		</a>
 	</div>
 	<div class="promos">
 		<a href="service.asp">
-			<div><img src="images/s2_07.jpg" alt="" /></div>
-			<h2>客户服务</h2>
-			<p>service</p>
+			<div style="background-image: url(images/s2_07.jpg);">
+				<h2>客户服务</h2>
+				<p>service</p>
+			</div>
 		</a>
 	</div>
 	<div class="promos">
-		<a href="">
-			<div><img src="images/s3_07.jpg" alt="" /></div>
-			<h2>预约体验</h2>
-			<p>experience</p>
+		<a href="experience.asp">
+			<div style="background-image: url(images/s3_07.jpg);">
+				<h2>预约体验</h2>
+				<p>experience</p>
+			</div>
 		</a>
 
 	</div>
 	<div class="promos">
 		<a href="contact.asp">
-			<div><img src="images/s4_07.jpg" alt="" /></div>
-			<h2>联系我们</h2>
-			<p>contact</p>
+			<div style="background-image: url(images/s4_07.jpg);">
+				<h2>联系我们</h2>
+				<p>contact</p>
+			</div>
 		</a>
 	</div>
 </div>

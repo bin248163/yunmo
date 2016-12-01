@@ -33,7 +33,7 @@
 	</div>
 	<div class="result">
 		<h1>查询结果：</h1>
-		<ul>
+		<ul style="display: none;">
 			<li>
 				<span>公司名称：乌鲁木齐航天龙腾思远汽车销售服务有限公司 </span>
 				<span>地址：新疆乌鲁木齐市头屯河区头屯河公路2345号（新疆天恒基汽车文化城12栋）</span>

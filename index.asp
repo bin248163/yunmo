@@ -3,13 +3,13 @@
 	<div id="banner_tabs" class="flexslider">
 		<ul class="slides">
 			<li>
-				<a href="brand.asp" style="background-image: url(images/banner1_06.jpg);background-color: #fff;"></a>
+				<a href="brand.asp" style="background-image: url(images/banner1_06.jpg);background-color: #000;"></a>
 			</li>
 			<li>
 				<a href="brand.asp" style="background-image:url(images/banenr2_02.jpg);background-color: #000;"></a>
 			</li>
 			<li>
-				<a href="brand.asp" style="background-image: url(images/banner3_02.jpg);background-color: #000;"></a>
+				<a href="brand.asp" style="background-image: url(images/banner3_02.jpg);background-color: #000;background-size: 100% auto;background-position: bottom center;"></a>
 			</li>
 		</ul>
 		<ul class="flex-direction-nav">
@@ -37,23 +37,35 @@
 <div class="w-100">
 	<div class="promos">
 		<a href="activity.asp">
-			<div style="background-image: url(images/s1_07.jpg);"></div>
+			<div style="background-image: url(images/s1_07.jpg);">
+				<h2>市场活动</h2>
+				<p>activity</p>
+			</div>
 		</a>
 	</div>
 	<div class="promos">
 		<a href="service.asp">
-			<div style="background-image: url(images/s2_07.jpg);"></div>
+			<div style="background-image: url(images/s2_07.jpg);">
+				<h2>客户服务</h2>
+				<p>service</p>
+			</div>
 		</a>
 	</div>
 	<div class="promos">
 		<a href="experience.asp">
-			<div style="background-image: url(images/s3_07.jpg);"></div>
+			<div style="background-image: url(images/s3_07.jpg);">
+				<h2>预约体验</h2>
+				<p>experience</p>
+			</div>
 		</a>
 
 	</div>
 	<div class="promos">
 		<a href="contact.asp">
-			<div style="background-image: url(images/s4_07.jpg);"></div>
+			<div style="background-image: url(images/s4_07.jpg);">
+				<h2>联系我们</h2>
+				<p>contact</p>
+			</div>
 		</a>
 	</div>
 </div>

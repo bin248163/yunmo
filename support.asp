@@ -3,9 +3,9 @@
 
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>网站首页</title>
-		<meta name="description" content="描述" />
-		<meta name="keywords" content="关键词英文逗号分隔" />
+		<title>航天云膜</title>
+		<meta name="description" content="航天云膜" />
+		<meta name="keywords" content="航天云膜" />
 		<link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon" />
 		<link href="css/style.css" rel="stylesheet" />
 		<link rel="stylesheet" href="css/jquery.fullPage.css">
@@ -16,7 +16,7 @@
 		<div class="header" style="position: fixed;top: 0;left: 0;z-index: 999999;width: 100%;">
 			<div class="adv-wrapper">
 				<div>
-					< 广告>
+					
 				</div>
 			</div>
 			<div class="head">
@@ -75,32 +75,47 @@
 			</div>
 			<div class="section">
 				<div class="section2">
-					<div class="section2_l" style="background-image: url(images/h51_03.jpg);"></div>
-					<div class="section2_r" style="background-image: url(images/h52_02.jpg);"></div>
+					<div class="section2_l">
+						<h1>高精密图层复合技术</h1>
+						<p>全新Soltdie-狭缝涂布，涂布均匀稳定，厚度控制精确，生产速度快、品质好，更高效率，安装清洁方便。</p>
+					</div>
+					<div class="section2_r" style="background-image: url(images/gj.png);"></div>
 
 				</div>
 			</div>
 			<div class="section">
 				<div class="section3">
 					<div class="section3_l" style="background-image: url(images/h11_01.jpg);"></div>
-					<div class="section3_r" style="background-image: url(images/h12_04.jpg);"></div>
+					<div class="section3_r">
+						<h1>智能光谱选择技术</h1>
+						<p>多功能材料组合、多层结构膜系设计，在保证可见光穿透的同时，有效阻隔紫外线、红外线，实现隔热、防晒、保护内饰、高清视野等综合保护功能。</p>
+					</div>
 				</div>
 			</div>
 			<div class="section">
 				<div class="section4">
-					<div class="section4_l" style="background-image: url(images/h21_03.jpg);"></div>
+					<div class="section4_l">
+						<h1>原材料复配使用技术</h1>
+						<p>光学聚酯基材、胶黏剂、紫外线吸收剂、纳米材料及其他功能材料科学复配，研制出高品质玻璃窗膜，为驾车行驶增加更多舒适感。</p>
+					</div>
 					<div class="section4_r" style="background-image: url(images/h22_06.jpg);"></div>
 				</div>
 			</div>
 			<div class="section">
 				<div class="section5" style="background-image: url(images/h32_01.jpg);">
-					<div class="section5_l" style="background-image: url(images/h31_03.jpg);"></div>
+					<div class="section5_l">
+						<h1>全球最新恒色技术</h1>
+						<p>采用优质聚酯薄膜及先进生产工艺，结合调色技术，改变光照导致的褪色现象，实现持久保色的效果，长达10年甚至更长。</p>
+					</div>
 				</div>
 			</div>
 			<div class="section">
 				<div class="section6">
 					<div class="section6_l" style="background-image: url(images/h41_03.jpg);"></div>
-					<div class="section6_r" style="background-image: url(images/h42_06.jpg);"></div>
+					<div class="section6_r">
+						<h1>全功能绿色环保技术</h1>
+						<p>首创全功能绿色环保技术，是目前国内唯一一家通过CTC节能认证的窗膜生产企业。100%零甲醛，零释放，保护您与家人的健康</p>
+					</div>
 				</div>
 			</div>
 		</div>
