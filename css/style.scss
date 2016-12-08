@@ -253,9 +253,9 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;text
 .tab-w{padding-top:50px;
     .tab{font-size: 16px;overflow: hidden;margin-bottom: 100px;
         p{padding-bottom: 30px;line-height: 35px;}
-        div{line-height: 40px;margin-bottom: 20px;
+        div{line-height: 40px;margin-bottom: 10px;
             span{display: inline-block;line-height: 40px;min-width: 220px;vertical-align:top;}
-            input{height: 38px;width: 328px;border: 1px solid #d6d6d6;outline: none;}
+            input{height: 38px;width: 328px;border: 1px solid #d6d6d6;outline: none;max-width: 100%;}
             textarea{min-width: 400px;border: 1px solid #d6d6d6;min-height: 38px;}
             .check{width: 20px;margin-left: 10px;border: none;}
         }
