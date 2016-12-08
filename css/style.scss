@@ -168,7 +168,7 @@ nav{position: relative;float: right;
 .tip{border-bottom: 1px solid #d6d6d6;line-height: 40px;padding-top: 40px;margin-bottom: 20px;}
 table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;text-align: center;
     th,td{padding: 20px 0;border:1px solid #fff;}
-    tr:nth-child(odd){background:#F4F4F4;}
+    tr:nth-child(odd){background:#f1f1f1;}
     
 }
 
@@ -211,7 +211,7 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;text
     p{font-size: 16px;@include overflow;}
     a:hover{text-decoration: underline;}
 }
-.act{padding: 100px 50px 80px 50px;border-bottom: 1px solid #d6d6d6;
+.act{padding: 100px 50px 50px 50px;
     h1{font-size: 30px;line-height: 60px;color: #4d4d4d;}
     .news_w{padding:0 100px;}
     .news{
@@ -232,17 +232,17 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;text
     h1{font-size: 30px;line-height: 60px;color: #4d4d4d;padding-top: 50px;}
     p{font-size: 16px;line-height: 32px;padding-top: 10px;}
 }
-.pro2{padding: 150px 50px 100px 50px;text-align: center;border-bottom: 1px solid #d6d6d6;margin-bottom: 100px;
+.pro2{padding: 50px 50px;text-align: center;
     h1{font-size: 40px;line-height: 60px;}
-    h2{font-size:30px;line-height: 30px;padding-top:50px;padding-bottom: 50px;}
+    h2{font-size:30px;line-height: 30px;padding:30px 0;}
     p{font-size: 16px;padding-top: 20px;line-height: 36px;}
 }
 .brand_l{width: 40%;float: left;padding-top: 100px;padding-bottom: 40px;
-    h1{font-size: 30px;line-height: 50px;padding-bottom: 30px;}
+    h1{font-size: 30px;line-height: 50px;}
     p{font-size: 16px;padding-right: 20px;line-height: 36px;}
 }
 .brand_r{width: 50%;float: right;padding-top: 100px;padding-bottom: 40px;
-    h1{font-size: 30px;line-height: 50px;padding-bottom: 30px;}
+    h1{font-size: 30px;line-height: 50px;}
     p{font-size: 16px;padding-right: 20px;line-height: 36px;}
     img{width: 100%;}
 }

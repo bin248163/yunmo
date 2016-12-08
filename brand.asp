@@ -1,7 +1,8 @@
 <!--#include file="top.asp"-->
 <div class="w-1000">
 	<div class="brand_l">
-		<h1>BRAND INTRODUCTION</h1>
+		<h1>航天云膜品牌介绍</h1>
+		<h2 style="font-size: 14px;padding-bottom: 20px;">BRAND INTRODUCTION</h2>
 		<p>航天云膜，作为中国航天进驻汽车窗膜市场的第一个品牌，
 在产品研发和生产技术方面，秉承中国航天科技精神，
 专注为客户提供优质的窗膜产品，让航天技术服务于民众，
@@ -11,7 +12,8 @@
 业持续发展，致力打造中国汽车窗膜实力品牌。</p>
 	</div>
 	<div class="brand_r">
-		<h1>BRAND VIDEO</h1>
+		<h1>品牌视频</h1>
+		<h2 style="font-size: 14px;padding-bottom: 20px;">BRAND VIDEO</h2>
 		<img src="images/sp_03.jpg"/>
 	</div>
 </div>

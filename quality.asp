@@ -11,7 +11,6 @@
 </div>
 <div class="w-1000">
 	<div class="pro2">
-		<h1>The quality of enjoyment</h1>
 		<h2>航天标准化售后服务，用心兑现承诺</h2>
 		<p>100%包贴好，验收不合格享受无忧返工。<br />
 以航天科技兑现品质承诺，5年质保，品质尊享。<br />

@@ -129,7 +129,7 @@
 					$('#dowebok').fullpage({
 						sectionsColor: ['#fff', '#fff', '#000', '#000', '#f6f6f6', '#f7f7f7'],
 						'navigation': true,
-						
+						scrollingSpeed:700,
 					});
 				});
 				//菜单
