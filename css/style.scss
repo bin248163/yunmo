@@ -247,7 +247,7 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;text
     img{width: 100%;}
 }
 .tab_list{height: 80px;background: #e6e6e6;margin-top: 100px;
-    a{padding: 0 32px;line-height: 80px;display: inline-block;font-size: 16px;}
+    a{padding: 0 32px;line-height: 80px;display: inline-block;font-size: 16px;@include overflow;}
     a.this{background: #000;color: #fff;}
 }
 .tab-w{padding-top:50px;
