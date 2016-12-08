@@ -7,10 +7,10 @@
 	<a href="quality.asp">售后服务</a>
 </div>
 <div class="w-1000">
-	<div class="wa"></div>
-	<div class="wax">
+	
+	<div class="wax" style="margin-top: 40px;">
 		<h1>产品价格查询</h1>
-		<div class="zj">总价：<span id="zj"></span></div>
+		<div class="w-1000">
 		<div class="pp">
 			<span>品牌</span>
 			<select name="">
@@ -172,58 +172,59 @@
 				<option value="155">Z-中兴汽车</option>
 			</select>
 		</div>
+		<div class="zj">总价：<span id="zj"></span></div>
+		</div>
 		<div class="p_fl">
 			<h2>系列</h2>
 
 			<div class="xl">
 				<h3>倾慕100%护肤套装</h3>
 				<ul>
-					<li onclick="command(0)">倾慕100%护肤套装</li>
-					<li onclick="command(0)">前档S800 + 侧挡Y870</li>
+					<li onclick="command(3760)">前档S800 + 侧挡Y870</li>
 				</ul>
 			</div>
 			<div class="xl">
 				<h3>冰度98隔热套装</h3>
 				<ul>
-					<li onclick="command(0)">前档S900P + 侧挡Y850P</li>
-					<li onclick="command(0)">前档S900P + 侧挡V05</li>
-					<li onclick="command(0)">前档S900P + 侧挡Y980</li>
+					<li onclick="command(3880)">前档S900P + 侧挡Y850P</li>
+					<li onclick="command(3880)">前档S900P + 侧挡V05</li>
+					<li onclick="command(2880)">前档S900P + 侧挡Y980</li>
 				</ul>
 			</div>
 			<div class="xl">
 				<h3>云盾24安防套装</h3>
 				<ul>
-					<li onclick="command(0)">前档S800 + 侧挡Y530</li>
-					<li onclick="command(0)">前档S800 + 侧挡Y550</li>
+					<li onclick="command(3360)">前档S800 + 侧挡Y530</li>
+					<li onclick="command(3360)">前档S800 + 侧挡Y550</li>
 				</ul>
 			</div>
 
 			<div class="xl">
-				<h3>极关77高清套装</h3>
+				<h3>极观77高清套装</h3>
 				<ul>
-					<li onclick="command(0)">前档S70 + 侧挡V25</li>
-					<li onclick="command(0)">前档S70 + 侧挡V15</li>
+					<li onclick="command(3180)">前档S70 + 侧挡V25</li>
+					<li onclick="command(3180)">前档S70 + 侧挡V15</li>
 				</ul>
 			</div>
 			<div class="xl">
 				<h3>光年10恒色套装</h3>
 				<ul>
-					<li onclick="command(0)">前档CL30 + 侧挡CL130</li>
-					<li onclick="command(0)">前档CL30 + 侧挡CL230</li>
-					<li onclick="command(0)">前档CL30 + 侧挡CL330</li>
+					<li onclick="command(1200)">前档CL30 + 侧挡CL130</li>
+					<li onclick="command(1200)">前档CL30 + 侧挡CL230</li>
+					<li onclick="command(1200)">前档CL30 + 侧挡CL330</li>
 				</ul>
 			</div>
 			<div class="xl">
 				<h3>星航360尖端套装</h3>
 				<ul>
-					<li onclick="command(0)">前档S950 + 侧挡Y980</li>
-					<li onclick="command(0)">前档S950 + 侧挡V05</li>
+					<li onclick="command(3560)">前档S950 + 侧挡Y980</li>
+					<li onclick="command(3560)">前档S950 + 侧挡V05</li>
 				</ul>
 			</div>
 
 		</div>
 		<a href="experience.asp" class="yuyue">预约体验</a>
-		<p class="tip">*未列车型报价参考相似同类车型；本报价为9座一下车辆报价，9座以上车辆及客车可比照相关车型报价。报价系统中“车身”指侧窗及后档，不包含前档及天窗。</p>
+		<p class="tip">*未列车型报价参考相似同类车型；本报价为9座以下车辆报价，9座以上车辆及客车可比照相关车型报价。</p>
 	</div>
 </div>
 

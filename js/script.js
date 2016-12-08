@@ -6,8 +6,8 @@ $(function() {
 	var bannerW = $(window).width();
 	var bannerH = $(window).height();
 	if(bannerW > 1200) {
-		$('.banner').height(bannerH - 380);
-		$('.flexslider').height(bannerH - 325);
+		$('.banner').height(bannerH - 360);
+		$('.flexslider').height(bannerH - 300);
 	}
 
 	var input1 = $('.form1 input');

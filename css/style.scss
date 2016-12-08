@@ -135,11 +135,11 @@ nav{position: relative;float: right;
 .wa{width: 100%;height: 450px;background: url(../images/wa_03.jpg) no-repeat center;}
 .wax{
     h1{font-size: 30px;line-height: 40px;}
-    .zj{text-align: right;font-size: 16px;line-height: 50px;margin-bottom: 10px;margin-right: 10px;
-        span{display: inline-block;width: 100px;border-bottom: 1px solid #d6d6d6;height: 50px;}
+    .zj{font-size: 16px;line-height: 50px;width: 50%;float: left;margin-top: 40px;
+        span{display: inline-block;width: 100px;border-bottom: 1px solid #d6d6d6;line-height: 40px;}
     }
-    .pp{line-height: 50px;font-size: 16px;
-        select{height: 50px;width: 400px;}
+    .pp{line-height: 50px;font-size: 16px;margin-top: 40px;width: 50%;float: left;
+        select{height: 50px;width:80%;}
     }   
 }
 .p_fl{overflow: hidden;margin-bottom: 40px;margin-top: 20px;
@@ -147,7 +147,7 @@ nav{position: relative;float: right;
 }
 .xl{width: 14.666%;margin: 0 1% 20px;background: #e6e6e6;float: left;
     div{border-left: 1px solid #cecece;border-top: 1px solid #cecece;border-right: 1px solid #cecece;}
-    h3{line-height: 55px;font-size: 16px;padding-left: 10px;border-bottom: 1px solid #cecece;}
+    h3{line-height: 55px;font-size: 16px;padding-left: 10px;border-bottom: 1px solid #cecece;background: #444;color: #fff;}
     ul{line-height: 40px;font-size: 14px;min-height: 130px;
         li{border-bottom: 1px solid #cecece;padding-left: 10px;cursor: pointer;
             &:hover{background: #d6d6d6;}
@@ -155,14 +155,25 @@ nav{position: relative;float: right;
     }
     
 }
+
+.link{line-height: 25px;padding: 10px 0;text-align: center;
+    a{line-height: 25px;}
+}
+.bottom{line-height: 25px;padding: 15px 0;text-align: center;border-top: 1px solid #d6d6d6;margin-top: 40px;
+ 
+}
 .yuyue{display: block;width: 120px;height: 40px;line-height: 40px;background: #4d4d4d;color: #fff;font-size: 16px;text-align: center;border-radius: 30px;
     &:hover{color: #fff;background: #444;}
 }
 .tip{border-bottom: 1px solid #d6d6d6;line-height: 40px;padding-top: 40px;margin-bottom: 20px;}
-table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;
-    th,td{padding: 20px 0;border:1px solid #fff;text-align: left;}
+table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;text-align: center;
+    th,td{padding: 20px 0;border:1px solid #fff;}
+    tr:nth-child(odd){background:#F4F4F4;}
+    
 }
-.table_h1{font-size: 18px;line-height: 50px;}
+
+
+.table_h1{font-size: 18px;line-height: 50px;margin-bottom: 10px;}
 .su{height: 4156px;background: url(../images/su_02.jpg) no-repeat center top;min-width: $width;}
 .not{padding: 100px 0 80px;border-bottom: 1px solid #d6d6d6;
     h1{font-size: 30px;line-height: 60px;color: #4d4d4d;}
@@ -606,9 +617,10 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;
     .xl{width: 48%;}
     .wax{ 
         h1{font-size: 18px;} 
-        .pp{
+        .pp{width: 100%;
             select{height: 50px;width: 90%;}
-        }   
+        } 
+        .zj{width: 100%;}  
     }
     .banner{height: 180px;
         div{height: 30%;

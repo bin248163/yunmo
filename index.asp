@@ -70,5 +70,4 @@
 	</div>
 </div>
 
-<div class="qq"></div>
 <!--#include file="bottom.asp"-->

@@ -7,7 +7,7 @@
 	<a href="quality.asp">售后服务</a>
 </div>
 <div class="w-100">
-	<div class="banner" style="background-image:url(images/sh_02.jpg) ;"></div>
+	<img src="images/sh_02.jpg" alt="" style="width: 100%;">
 </div>
 <div class="w-1000">
 	<div class="pro2">

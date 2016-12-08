@@ -13,8 +13,8 @@
 			<div class="contact_l">
 				
 				<p>公司总部：中国·西安<br />
-				电话：029-86686095<br />
-				地址：陕西省西安市国家民用航天产业基地航天中路309号
+				电话：400-900-8669<br />
+				地址：陕西省西安市高新区唐延南路i都会1号楼
 				</p>
 			</div>
 			<iframe src="map.html" class="bz" frameborder="0" scrolling="no"></iframe>
