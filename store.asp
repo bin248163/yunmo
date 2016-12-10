@@ -225,7 +225,7 @@
 					// 信息窗口高度
 					title: "陕西航天华泰汽车服务有限公司", // 信息窗口标题
 				}
-				var infoWindow10 = new BMap.InfoWindow("地址：陕西省西安市大庆路295号<br>座机：0911-8875863", opts); // 创建信息窗口对象 
+				var infoWindow10 = new BMap.InfoWindow("地址：陕西省西安市大庆路295号<br>座机：029-88616365", opts); // 创建信息窗口对象 
 				marker10.addEventListener("click", function() {
 					map.openInfoWindow(infoWindow10, point10); //开启信息窗口
 				});
