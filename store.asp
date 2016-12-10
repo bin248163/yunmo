@@ -104,7 +104,7 @@
 				var marker = new BMap.Marker(point); // 创建标注
 				map.addOverlay(marker); // 将标注添加到地图中
 				var opts111 = {
-					width: 250, // 信息窗口宽度
+					width: 265, // 信息窗口宽度
 					// 信息窗口高度
 					title: "乌鲁木齐航天龙腾思远汽车销售服务有限公司", // 信息窗口标题
 				}

@@ -20,7 +20,7 @@
 			</div>
 			<div class="head">
 				<div class="logo">
-					<a href="index.asp"><img src="images/logo_03.jpg" /></a>
+					<a href="index.asp"><img src="images/logo_03.png" /></a>
 				</div>
 				<div class="nav" id="navClick">
 					<span></span>
