@@ -76,8 +76,8 @@
 			<div class="section">
 				<div class="section2">
 					<div class="section2_l">
-						<h1>高精密图层复合技术</h1>
-						<p>全新Soltdie-狭缝涂布，涂布均匀稳定，厚度控制精确，生产速度快、品质好，更高效率，安装清洁方便。</p>
+						<h1>高精密涂布复合技术</h1>
+						<p>全新Soltdie-狭缝涂布设备，涂布均匀稳定，厚度控制精确，生产速度快、品质好，更高效率，安装清洁方便。</p>
 					</div>
 					<div class="section2_r" style="background-image: url(images/gj.png);"></div>
 
@@ -88,7 +88,7 @@
 					<div class="section3_l" style="background-image: url(images/h11_01.jpg);"></div>
 					<div class="section3_r">
 						<h1>智能光谱选择技术</h1>
-						<p>多功能材料组合、多层结构膜系设计，在保证可见光穿透的同时，有效阻隔紫外线、红外线，实现隔热、防晒、保护内饰、高清视野等综合保护功能。</p>
+						<p>多功能材料组合、多层结构膜系设计，在保证可见光穿透的同时，有效阻隔紫外线、红外线，实现隔热、防晒、保护内饰、高清视野等综合功能。</p>
 					</div>
 				</div>
 			</div>
@@ -104,8 +104,8 @@
 			<div class="section">
 				<div class="section5" style="background-image: url(images/hs.png);">
 					<div class="section5_l">
-						<h1>全球最新恒色技术</h1>
-						<p>采用优质聚酯薄膜及先进生产工艺，结合调色技术，改变光照导致的褪色现象，实现持久保色的效果，长达10年甚至更长。</p>
+						<h1>全球创新恒色技术</h1>
+						<p>采用优质聚酯薄膜及先进生产工艺，结合调色技术，改变光照导致的褪色现象，实现持久保色的效果，长达5-10年，甚至更久。</p>
 					</div>
 				</div>
 			</div>
@@ -114,7 +114,7 @@
 					<div class="section6_l" style="background-image: url(images/h41_03.jpg);"></div>
 					<div class="section6_r">
 						<h1>全功能绿色环保技术</h1>
-						<p>首创全功能绿色环保技术，是目前国内唯一一家通过CTC节能认证的窗膜生产企业。100%零甲醛，零释放，保护您与家人的健康</p>
+						<p>首创全功能绿色环保技术，是目前国内唯一一家通过CTC节能认证的窗膜生产企业。绿色低碳，零甲醛释放，保护您与家人的健康。</p>
 					</div>
 				</div>
 			</div>

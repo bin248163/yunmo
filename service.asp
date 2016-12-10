@@ -12,7 +12,7 @@
 		<h1>产品价格查询</h1>
 		<div class="w-1000">
 		<div class="pp">
-			<span>品牌</span>
+			<span>汽车品牌</span>
 			<select name="">
 				<option value="0">请选择品牌</option>
 				<option value="1">A-阿尔法-罗米欧</option>
@@ -178,7 +178,7 @@
 			<h2>系列</h2>
 
 			<div class="xl">
-				<h3>倾慕100%护肤套装</h3>
+				<h3>倾慕100护肤套装</h3>
 				<ul>
 					<li onclick="command(3760)">前档S800 + 侧挡Y870</li>
 				</ul>
@@ -188,7 +188,7 @@
 				<ul>
 					<li onclick="command(3880)">前档S900P + 侧挡Y850P</li>
 					<li onclick="command(3880)">前档S900P + 侧挡V05</li>
-					<li onclick="command(2880)">前档S900P + 侧挡Y980</li>
+					<li onclick="command(3880)">前档S900P + 侧挡Y980</li>
 				</ul>
 			</div>
 			<div class="xl">
@@ -215,7 +215,7 @@
 				</ul>
 			</div>
 			<div class="xl">
-				<h3>星航360尖端套装</h3>
+				<h3>星航360非凡套装</h3>
 				<ul>
 					<li onclick="command(3560)">前档S950 + 侧挡Y980</li>
 					<li onclick="command(3560)">前档S950 + 侧挡V05</li>

@@ -10,7 +10,7 @@
 	<div class="not">
 		<h1>航天云膜消费权益提醒：</h1>
 		<p>
-			1.为保障您的消费权益，请选择本官网公布的航天云膜授权经销商门店进行贴膜服务（4S店内施工航天云膜的车主请注意验证为您施工的航天云膜服务商是否为本网站公布的授权经销商）。非航天云膜授权经销商销售施工的航天云膜均非正品，请您务必注意风险，以免损害您的消费权益。
+			1.为保障您的消费权益，请选择本官网公布的航天云膜授权经销商门店进行贴膜服务（4S店内施工航天云膜的车主，请注意验证为您施工的航天云膜服务商是否为本网站公布的授权经销商）。非航天云膜授权的经销商。其销售施工的航天云膜均非正品，请您务必注意风险，以免损害您的消费权益。
 		</p>
 		<p>2.凡由非本网站公布的航天云膜授权经销商施工的客户，我司不承担所贴膜的真伪鉴定及相关索赔等处理义务！</p>
 	</div>
@@ -100,7 +100,7 @@
 				map.setCurrentCity("西安"); // 设置地图显示的城市 此项是必须设置的
 				map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
 
-				var point = new BMap.Point(87.383477, 43.898387);
+				var point = new BMap.Point(87.382166,43.898329);
 				var marker = new BMap.Marker(point); // 创建标注
 				map.addOverlay(marker); // 将标注添加到地图中
 				var opts111 = {
@@ -113,7 +113,7 @@
 					map.openInfoWindow(infoWindow, point); //开启信息窗口
 				});
 
-				var point1 = new BMap.Point(104.663462, 31.461713);
+				var point1 = new BMap.Point(104.662541,31.458665);
 				var marker1 = new BMap.Marker(point1); // 创建标注
 				map.addOverlay(marker1); // 将标注添加到地图中
 				var opts1 = {
@@ -126,7 +126,7 @@
 					map.openInfoWindow(infoWindow1, point1); //开启信息窗口
 				});
 
-				var point3 = new BMap.Point(101.777358, 36.606649);
+				var point3 = new BMap.Point(101.670146,36.535973);
 				var marker3 = new BMap.Marker(point3); // 创建标注
 				map.addOverlay(marker3); // 将标注添加到地图中
 				var opts3 = {
@@ -139,7 +139,7 @@
 					map.openInfoWindow(infoWindow3, point3); //开启信息窗口
 				});
 
-				var point4 = new BMap.Point(109.470393, 36.507688);
+				var point4 = new BMap.Point(109.467691,36.504381);
 				var marker4 = new BMap.Marker(point4); // 创建标注
 				map.addOverlay(marker4); // 将标注添加到地图中
 				var opts4 = {
@@ -152,7 +152,7 @@
 					map.openInfoWindow(infoWindow4, point4); //开启信息窗口
 				});
 
-				var point5 = new BMap.Point(108.854085, 34.326441);
+				var point5 = new BMap.Point(108.855445,34.330206);
 				var marker5 = new BMap.Marker(point5); // 创建标注
 				map.addOverlay(marker5); // 将标注添加到地图中
 				var opts5 = {
@@ -165,7 +165,7 @@
 					map.openInfoWindow(infoWindow5, point5); //开启信息窗口
 				});
 
-				var point6 = new BMap.Point(109.748257, 38.165802);
+				var point6 = new BMap.Point(109.748248,38.165788);
 				var marker6 = new BMap.Marker(point6); // 创建标注
 				map.addOverlay(marker6); // 将标注添加到地图中
 				var opts = {
@@ -178,7 +178,7 @@
 					map.openInfoWindow(infoWindow6, point6); //开启信息窗口
 				});
 
-				var point7 = new BMap.Point(108.944512, 34.330124);
+				var point7 = new BMap.Point(108.943436,34.329475);
 				var marker7 = new BMap.Marker(point7); // 创建标注
 				map.addOverlay(marker7); // 将标注添加到地图中
 				var opts = {
@@ -191,7 +191,7 @@
 					map.openInfoWindow(infoWindow7, point7); //开启信息窗口
 				});
 
-				var point8 = new BMap.Point(103.639121, 36.143818);
+				var point8 = new BMap.Point(103.636621,36.145182);
 				var marker8 = new BMap.Marker(point8); // 创建标注
 				map.addOverlay(marker8); // 将标注添加到地图中
 				var opts = {
@@ -204,7 +204,7 @@
 					map.openInfoWindow(infoWindow8, point8); //开启信息窗口
 				});
 
-				var point9 = new BMap.Point(101.777458, 36.606749);
+				var point9 = new BMap.Point(101.660426,36.528959);
 				var marker9 = new BMap.Marker(point9); // 创建标注
 				map.addOverlay(marker9); // 将标注添加到地图中
 				var opts = {
@@ -217,7 +217,7 @@
 					map.openInfoWindow(infoWindow9, point9); //开启信息窗口
 				});
 
-				var point10 = new BMap.Point(108.899508, 34.274952);
+				var point10 = new BMap.Point(108.914325,34.275669);
 				var marker10 = new BMap.Marker(point10); // 创建标注
 				map.addOverlay(marker10); // 将标注添加到地图中
 				var opts = {
@@ -230,7 +230,7 @@
 					map.openInfoWindow(infoWindow10, point10); //开启信息窗口
 				});
 
-				var point11 = new BMap.Point(108.855198, 34.276956);
+				var point11 = new BMap.Point(108.855482,34.331041);
 				var marker11 = new BMap.Marker(point11); // 创建标注
 				map.addOverlay(marker11); // 将标注添加到地图中
 				var opts = {
@@ -243,7 +243,7 @@
 					map.openInfoWindow(infoWindow11, point11); //开启信息窗口
 				});
 
-				var point12 = new BMap.Point(87.312548, 43.873866);
+				var point12 = new BMap.Point(87.382471,43.898108);
 				var marker12 = new BMap.Marker(point12); // 创建标注
 				map.addOverlay(marker12); // 将标注添加到地图中
 				var opts = {
@@ -256,7 +256,7 @@
 					map.openInfoWindow(infoWindow12, point12); //开启信息窗口
 				});
 
-				var point13 = new BMap.Point(109.490359, 34.498971);
+				var point13 = new BMap.Point(109.491089,34.498807);
 				var marker13 = new BMap.Marker(point13); // 创建标注
 				map.addOverlay(marker13); // 将标注添加到地图中
 				var opts = {

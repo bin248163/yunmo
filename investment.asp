@@ -14,7 +14,7 @@
 		<div class="tab">
 			<form action="" method="post" class="form2">
 				<p>
-					请申请成为PDI特许经销商<br /> 请仔细填写下文卷表格。带星号（*）的表示必须填写内容
+					请申请成为PDI特许经销商<br /> 请仔细填写表格。带星号（*）的表示必须填写内容
 					<br /> 个人/公司详情
 				</p>
 				<div>
@@ -22,7 +22,7 @@
 				</div>
 				<div><input type="text" name="" id="" value=""/></div>
 				<div>
-					<span>年龄（如果适应）</span>
+					<span>年龄</span>
 				</div>
 				<div><input type="text" name="" id="" value=""/></div>
 				<div>
@@ -77,7 +77,7 @@
 				</div>
 				<div><input type="text" name="" id="" value=""/></div>
 				<div>
-					<span>目前您拥有（或拥有）适合发展航天云膜特许经销业务的产业吗？</span>
+					<span>目前您是否拥有适合发展航天云膜特许经销业务的产业？</span>
 					<input type="radio" name="check" class="check"/><span style="min-width: 30px;">是</span><input type="radio" name="check" class="check"/><span>否</span>
 				</div>
 				<div><span>如果有，请注明这些店铺、工作或办公室的地址和面积*</span></div>
@@ -98,8 +98,8 @@
 		<div class="tab">
 			<form action="" method="post" class="form3">
 				<p>
-					请申请成为PDI特许经销商<br />
-请仔细填写下文卷表格。带星号（*）的表示必须填写内容<br />
+					请申请成为零售经销商<br />
+请仔细填写表格。带星号（*）的表示必须填写内容<br />
 个人/公司详情
 				</p>
 				<div>
@@ -141,7 +141,7 @@
 				</div>	
 				<div><textarea name=""  ></textarea></div>
 				<div>
-					<span>目前您拥有（或拥有）适合发展威固膜特许经销业务的产业吗？</span>
+					<span>目前您是否拥有适合发展航天云膜特许经销业务的产业？</span>
 					<input type="radio" name="check" class="check"/><span style="min-width: 30px;">是</span><input type="radio" name="check" class="check"/><span>否</span>
 				</div>
 				<div>

@@ -51,7 +51,7 @@
 	<table border="" cellspacing="" cellpadding="">
 		<tr>
 			
-			<th>名称型号</th>
+			<th>产品型号</th>
 			<th>类别</th>
 			<th>颜色</th>
 			<th>可见光<br />透射率</th>
