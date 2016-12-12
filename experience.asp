@@ -249,7 +249,7 @@
 					map.openInfoWindow(infoWindow12, point12); //开启信息窗口
 				});
 
-				var point13 = new BMap.Point(109.491089,34.498807);
+				var point13 = new BMap.Point(109.492416,34.513389);
 				var marker13 = new BMap.Marker(point13); // 创建标注
 				map.addOverlay(marker13); // 将标注添加到地图中
 				var opts = {
