@@ -44,6 +44,13 @@ $(function() {
 		$nav = $('#nav'),
 		$navbj = $('#navbj'),
 		$closeTop = $('#closeTop');
+		$('.sa').click(function() {
+		$navClick.addClass('nav-animate');
+		$navbj.show();
+		$nav.addClass('nav-close');
+		$closeTop.show();
+		$('body').css({'overflow':'hidden','position':'fixed','width':'100%'});
+	});
 	$navClick.click(function() {
 		$(this).addClass('nav-animate');
 		$navbj.show();

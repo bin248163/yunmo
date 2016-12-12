@@ -39,7 +39,9 @@ a{text-decoration:none;color:#666;
 .w-100b{width: 100%;overflow: hidden;min-width: $width;background: $bj;}
 .n-100{width: 100%;overflow: hidden;letter-spacing:-3px; font-size:0;}
 .w-1000{width: $width;margin: 0 auto;overflow: hidden;position: relative;}//内容宽度
-.logo{float: left;padding: 16px 0 0;width: 206px;}
+.logo{float: left;padding: 16px 0 0;width: 206px;
+    img{width: 100%;}
+}
 .logo-r{float: left;padding-left: 50px;}
 .tel{float: right;}//页面顶部联系电话
 .n-left{width: $n-left;float: left;padding-right: 10px;}//内页左侧
@@ -54,7 +56,7 @@ a{text-decoration:none;color:#666;
 .head{width: $width;margin: 0 auto;height: 56px;}
 //导航部分
 .w-nav{width: 100%;background:$nav-bj;}
-.nav{height: 65px;line-height: 65px;float: left;
+.nav{height: 65px;line-height: 65px;float: left;opacity: 0;
     ul{
         li{float: left;position: relative;text-align: center;position: relative;
             a{font-size: 15px;display: block; color: #fff;@include hover(.3s);height:100%;padding: 0 43px;
@@ -69,7 +71,7 @@ a{text-decoration:none;color:#666;
 .n-nav{background: #e6e6e6;height: 48px;text-align: center;
     a{line-height: 48px;padding: 0 40px;}
 }
-
+.sa{position: absolute;color: #fff;font-size: 16px;line-height: 56px;text-align: right;z-index:1;width:45%;top: 0;left: 50%;display: none;}
 
 nav{position: relative;float: right;
     ul{float: left;
@@ -90,7 +92,7 @@ nav{position: relative;float: right;
     span{height: 2px;margin-bottom:5px;display: block;background: $color;width: 100%;@include hover;}    
 }
 .nav-close{transform: translate(0,0);-ms-transform: translate(0,0);-moz-transform: translate(0,0);-o-transform: translate(0,0);-webkit-transform: translate(0,0);overflow-y: auto;}
-.nav-animate{
+.nav-animate{opacity: 1;
     span{background: #eee;
         &:nth-last-child(3){position:absolute;top: 7px;
             transform: rotate(-45deg);
@@ -122,7 +124,7 @@ nav{position: relative;float: right;
     p{font-size: 14px;line-height: 16px;}
     img{width: 100%;}
 }
-.banner{background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;height: 640px;
+.banner{background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;height: 0;
     div{background: rgba(0,0,0,.7);color: #fff;text-align: center;position: absolute;bottom: 0;left: 0;height:180px;width: 100%;}
     h1{font-size: 40px;line-height: 60px;padding-top: 30px;}
     h2{font-size: 30px;line-height:50px;}
@@ -160,7 +162,7 @@ nav{position: relative;float: right;
     a{line-height: 25px;}
 }
 .bottom{line-height: 25px;padding: 15px 0;text-align: center;border-top: 1px solid #d6d6d6;margin-top: 40px;
- 
+    span,a{display: inline-block}
 }
 .yuyue{display: block;width: 120px;height: 40px;line-height: 40px;background: #4d4d4d;color: #fff;font-size: 16px;text-align: center;border-radius: 30px;
     &:hover{color: #fff;background: #444;}
@@ -328,14 +330,11 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;text
     .section2_r{top: 0;left: 0;width: 889px;height: 662px;background-repeat: no-repeat;background-position:left top;position: absolute;}
 }
 .section3{height:calc(100% - 100px);width: 100%;margin: 100px auto 0;position: relative;
-    .section3_l{position: absolute;left: 50%;margin-left: -600px;top: 50%;width: 505px;height: 614px;z-index: 2;background-repeat: no-repeat;margin-top: -310px;}
+    .section3_l{position: absolute;left: 50%;margin-left: -600px;top:5%;width: 505px;height: 95%;z-index: 2;background-repeat: no-repeat;background-position: top center;}
     .section3_r{top: 50%;left: 50%;width: 494px;margin-top: -128px;position: absolute;color: #fff;
         h1{font-size: 40px;line-height: 60px;}
         p{font-size: 20px;line-height: 35px;padding-top: 50px;}
     }
-}
-.fs{position: absolute;top: 13.5%;left: 50%;margin-left: -600px;z-index: 6;
-    p{color: #fff;font-size: 18px;line-height: 22px;}
 }
 .section4{height:calc(100% - 100px);width: 100%;margin: 100px auto 0;position: relative;
     .section4_l{position: absolute;left: 50%;margin-left: -600px;top: 50%;width: 530px;z-index: 2;margin-top: -210px;color: #fff;
@@ -344,8 +343,8 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;text
     }
     .section4_r{top: 50%;right: 50%;width: 1024px;height: 308px;background-repeat: no-repeat;background-position:center;position: absolute;margin-right: -600px;margin-top: -59px;}
 }
-.section5{height:calc(100% - 100px);width: 100%;margin: 100px auto 0;position: relative;background-position: left bottom;background-size:829px auto;background-repeat: no-repeat;
-    .section5_l{position: absolute;left:50%;top: 30%;width: 600px;z-index: 2;
+.section5{height:calc(100% - 100px);width: 100%;margin: 100px auto 0;position: relative;background-position: left bottom;background-size:50% auto;background-repeat: no-repeat;
+    .section5_l{position: absolute;left:51%;top: 30%;width: 600px;z-index: 2;
         h1{font-size: 40px;line-height: 60px;}
         p{font-size: 20px;line-height: 35px;padding-top: 50px;}
     }
@@ -450,7 +449,7 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;text
         }
         p{font-size: 14px;padding-top: 20px;line-height: 36px;}
     }
-    nav{width: calc(100% - 200px);
+    nav{width: calc(100% - 240px);
         ul{width: 100%;
             li{width: 12.5%;@include overflow;
                 a{padding: 0;}
@@ -530,6 +529,7 @@ table{font-size: 16px;margin-bottom: 150px;border:1px solid #fff;width: 98%;text
 }
 
 @media only screen and (max-width: 700px) {
+    .sa{display: block;}
     .tab_list{margin-top: 20px;height: 40px;
         a{padding: 0;float: left;width: 50%;text-align: center;line-height: 40px;}
     }

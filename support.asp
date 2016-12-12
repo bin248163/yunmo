@@ -21,8 +21,9 @@
 			</div>
 			<div class="head">
 				<div class="logo">
-					<a href="index.asp"><img src="images/logo_03.jpg" /></a>
+					<a href="index.asp"><img src="images/logo_03.png" /></a>
 				</div>
+				<div class="sa">关于产品</div>
 				<div class="nav" id="navClick">
 					<span></span>
 					<span></span>
@@ -90,13 +91,7 @@
 						<h1>智能光谱选择技术</h1>
 						<p>多功能材料组合、多层结构膜系设计，在保证可见光穿透的同时，有效阻隔紫外线、红外线，实现隔热、防晒、保护内饰、高清视野等综合功能。</p>
 					</div>
-					<div class="fs">
-						<p>
-							反射紫外线<br />
-							投射可见光<br />
-							反射红外线
-						</p>
-					</div>
+					
 				</div>
 			</div>
 			<div class="section">
