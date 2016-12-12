@@ -9,7 +9,7 @@
 				<a href="brand.asp" style="background-image:url(images/banenr2_02.jpg);background-color: #000;"></a>
 			</li>
 			<li>
-				<a href="brand.asp" style="background-image: url(images/banner3_02.jpg);background-color: #000;background-size: 100% auto;background-position: bottom center;"></a>
+				<a href="brand.asp" style="background-image: url(images/banner3_02.jpg);background-color: #000;"></a>
 			</li>
 		</ul>
 		<ul class="flex-direction-nav">
