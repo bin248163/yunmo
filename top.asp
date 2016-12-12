@@ -55,7 +55,7 @@
 							<a href="support.asp">技术支持</a>
 						</li>
 						<li>
-							<a href="login.asp">登陆 / 注册</a>
+							<a href="login.asp">登陆/注册</a>
 						</li>
 					</ul>
 
