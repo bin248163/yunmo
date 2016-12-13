@@ -31,7 +31,7 @@
 				<li><span>区</span>
 					<select id="s_county" name="s_county"></select>
 				</li>
-				<li><span>经销商名称</span><input type="text" id="" value="" /></li>
+				<li><span>经销商名称</span><input type="text" id="" value="" placeholder="经销商名称"/></li>
 				<li><input type="button" name="" id="" value="查询" /></li>
 			</ul>
 
